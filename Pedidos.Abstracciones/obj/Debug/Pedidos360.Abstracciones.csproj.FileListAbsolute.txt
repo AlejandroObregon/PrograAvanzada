@@ -4,3 +4,9 @@ E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.A
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.CoreCompileInputs.cache
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb

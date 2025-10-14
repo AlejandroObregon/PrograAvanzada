@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Producto.LogicaDeNegocio.Producto.ActualizarProducto
+namespace Pedidos.LogicaDeNegocio.Producto.ActualizarProducto
 {
     public class ActualizarProductoLN : IActualizarProductoLN
     {

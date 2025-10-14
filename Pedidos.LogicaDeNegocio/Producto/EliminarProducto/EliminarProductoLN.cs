@@ -1,26 +1,26 @@
-using Inventario.Abstracciones.AccesoADatos.Inventario.EliminarInventario;
-using Inventario.Abstracciones.LogicaDeNegocio.Inventario.EliminarInventario;
-using Inventario.AccesoADatos.Inventario.EliminarInventario;
+using Pedidos.Abstracciones.AccesoADatos.Producto.EliminarProducto;
+using Pedidos.Abstracciones.LogicaDeNegocio.Producto.EliminarProducto;
+using Pedidos.AccesoADatos.Producto.EliminarProducto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventario.LogicaDeNegocio.Inventario.EliminarInventario
+namespace Pedidos.LogicaDeNegocio.Producto.EliminarProducto
 {
     public class EliminarProductoLN : IEliminarProductoLN
     {
-        private IEliminarProductoAD _eliminarInventarioAD;
+        private IEliminarProductoAD _eliminarProductoAD;
 
         public EliminarProductoLN()
         {
-            _eliminarInventarioAD = new EliminarProductoAD();
+            _eliminarProductoAD = new EliminarProductoAD();
         }
 
         public int Eliminar(int id)
         {
-            int cantidadDeResultados = _eliminarInventarioAD.Eliminar(id);
+            int cantidadDeResultados = _eliminarProductoAD.Eliminar(id);
             return cantidadDeResultados;
         }
     }

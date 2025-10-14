@@ -1,29 +1,29 @@
-﻿using Inventario.Abstracciones.AccesoADatos.Inventario.ListarInventario;
-using Inventario.Abstracciones.AccesoADatos.Inventario.ObtenerInventarioPorId;
-using Inventario.Abstracciones.LogicaDeNegocio.Inventario.ObtenerInventarioPorId;
-using Inventario.Abstracciones.ModelosParaUI;
-using Inventario.AccesoADatos.Inventario.ListarInventario;
-using Inventario.AccesoADatos.Inventario.ObtenerInventarioPorId;
+﻿using Pedidos.Abstracciones.AccesoADatos.Producto.ListarProductos;
+using Pedidos.Abstracciones.AccesoADatos.Producto.ObtenerProductoPorId;
+using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ObtenerProductoPorId;
+using Pedidos.Abstracciones.ModelosParaUI;
+using Pedidos.AccesoADatos.Producto.ListarProducto;
+using Pedidos.AccesoADatos.Producto.ObtenerProductoPorId;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventario.LogicaDeNegocio.Inventario.ObtenerInventarioPorId
+namespace Pedidos.LogicaDeNegocio.Producto.ObtenerProductoPorId
 {
 	public class ObtenerProductoPorIdLN: IObtenerProductoPorIdLN
 	{
-		private IObtenerProductoPorIdAD _obtenerInventarioPorId;
+		private IObtenerProductoPorIdAD _obtenerProductoPorId;
 		public ObtenerProductoPorIdLN()
 		{
-			_obtenerInventarioPorId = new ObtenerInventarioPorIdAD();
+			_obtenerProductoPorId = new ObtenerProductoPorIdAD();
 		}
 
-		public InventarioDto Obtener(int id)
+		public ProductoDto Obtener(int id)
 		{
-			InventarioDto elInventario = _obtenerInventarioPorId.Obtener(id);
-			return elInventario;
+			ProductoDto elProducto = _obtenerProductoPorId.Obtener(id);
+			return elProducto;
 		}
 	}
 }

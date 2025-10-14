@@ -1,12 +1,274 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Avance #1\\Proyecto_Progra_Avanzada\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\pedido\\editarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\editarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\pedido\\detallespedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\detallespedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\producto\\editarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\editarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\pedido\\crearpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\crearpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\pedidos.ui\\views\\producto\\eliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\eliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\pedido\\listarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\listarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\pedidos.ui\\views\\producto\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\pedidos.ui\\views\\producto\\detallesproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\detallesproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\pedidos.ui\\views\\producto\\listarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\listarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograa\\pedidos.ui\\views\\pedido\\detallespedido.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\detallespedido.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\pedidos.abstracciones\\modelosparaui\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\EditarPedido.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Pedido\\EditarPedido.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\EditarPedido.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Pedido\\EditarPedido.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T22:05:30.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Pedidos.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T21:43:40.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "Pedidos.UI\\Controllers\\PedidoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T21:43:39.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetallesPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T21:42:01.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListarPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\ListarPedido.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Pedido\\ListarPedido.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\ListarPedido.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Pedido\\ListarPedido.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T21:41:26.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetallesPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Pedido\\DetallesPedido.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T21:41:03.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrearPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\CrearPedido.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Pedido\\CrearPedido.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Pedido\\CrearPedido.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Pedido\\CrearPedido.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T21:40:17.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EliminarProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\EliminarProducto.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\EliminarProducto.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\EliminarProducto.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\EliminarProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:12:01.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\EditarProducto.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\EditarProducto.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\EditarProducto.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\EditarProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:12:01.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T21:43:56.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Pedidos.UI\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T21:44:46.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetallesProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\DetallesProducto.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\DetallesProducto.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\DetallesProducto.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\DetallesProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:10:31.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrearProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\CrearProducto.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\CrearProducto.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\CrearProducto.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\CrearProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:07:44.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
+              "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
+              "RelativeToolTip": "Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:06:06.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListarProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograA\\Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:04:35.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,45 +1,46 @@
-﻿using Inventario.Abstracciones.AccesoADatos.Inventario.ListarInventario;
-using Inventario.Abstracciones.LogicaDeNegocio.Inventario.ListarInventario;
-using Inventario.Abstracciones.ModelosParaUI;
-using Inventario.AccesoADatos.Inventario.ListarInventario;
+﻿using Pedidos.Abstracciones.AccesoADatos.Producto.ListarProductos;
+using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ListarProductos;
+using Pedidos.Abstracciones.ModelosParaUI;
+using Pedidos.AccesoADatos.Producto.ListarProducto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventario.LogicaDeNegocio.Inventario.ListarInventario
+namespace Pedidos.LogicaDeNegocio.Producto.ListarProducto
 {
-	public class ListarProductosLN: IListarProductoLN
+	public class ListarProductosLN: IListarProductosLN
 	{
-		private IListarProductosAD _listarInventarioAD;
+		private IListarProductosAD _listarProductoAD;
 		public ListarProductosLN() {
-			_listarInventarioAD = new ListarInventarioAD();
+			_listarProductoAD = new ListarProductoAD();
 		}
 
-		public List<InventarioDto> Obtener()
+		public List<ProductoDto> Obtener()
 		{
-			/*List<InventarioDto> laListaDeInventario = new List<InventarioDto>();
-			laListaDeInventario.Add(ObtenerObjeto());*/
-			List<InventarioDto> laListaDeInventario = _listarInventarioAD.Obtener();
+			/*List<ProductoDto> laListaDeProducto = new List<ProductoDto>();
+			laListaDeProducto.Add(ObtenerObjeto());*/
+			List<ProductoDto> laListaDeProducto = _listarProductoAD.Obtener();
 
-			return laListaDeInventario;
+			return laListaDeProducto;
 		}
 
-		private InventarioDto ObtenerObjeto()
+		public ProductoDto ObtenerObjeto()
 		{
-			return new InventarioDto { 
-			Anio = 2025,
-			Cantidad = 5,
-			CodigoDelRepuesto = "0001",
-			Estado = true,
-			FechaDeModificacion = DateTime.Now,
-			FechaDeRegistro = DateTime.Now,
-			MarcaDelRepuesto = "KYB",
-			Modelo = "Corolla",
-			NombreDelRepuesto = "Compensador",
-			Vehiculo = "Toyota"
+			return new ProductoDto { 
+			Id = 1,
+			Nombre = "Producto1",
+            CategoriaId = 1,
+            Precio = 200.0f,
+            ImpuestoPorc = 11,
+            Stock = 1,
+            Activo = true,
+            ImagenUrl = "Corolla"
+
 			};
-		}
+
+
+    }
 	}
 }

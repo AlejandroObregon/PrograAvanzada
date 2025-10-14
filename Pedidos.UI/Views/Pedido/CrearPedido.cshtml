@@ -1,0 +1,89 @@
+@model Pedidos.Abstracciones.ModelosParaUI.ProductoDto
+
+@{
+    ViewBag.Title = "Registrar Pedido";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+            <h2 class="mb-4">Registrar Pedido</h2>
+
+
+                <div class="p-4 border rounded shadow-sm bg-light">
+
+                    <h4 class="mb-3">Datos del Pedido</h4>
+                    <hr />
+
+
+                    <div class="mb-3">
+                        <label>Cliente Asociado</label>
+                        <select>
+                            <option>Cliente1</option>
+                            <option>Cliente2</option>
+                            <option>Cliente3</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Producto a pedir</label>
+                        <select>
+                            <option>Producto1</option>
+                            <option>Producto2</option>
+                            <option>Producto3</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Cantidad</label>
+                        <input />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Impuestos</label>
+                        <input disabled/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Total</label>
+                        <input disabled/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label></label>
+                    </div>
+
+
+                    <div class="d-grid gap-2 mt-4">
+                        <input type="submit" value="Crear Pedido" class="btn btn-primary btn-lg" />
+                    </div>
+                </div>
+            
+
+            <div class="mt-3">
+                @Html.ActionLink("Volver a la Lista", "ListarPedido", null, new { @class = "btn btn-secondary btn-sm" })
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        (function () {
+            var input = document.getElementById('archivo');
+            var img = document.getElementById('previewImg');
+            if (input && img) {
+                input.addEventListener('change', function (evt) {
+                    const file = evt.target.files && evt.target.files[0];
+                    if (!file) return;
+                    const reader = new FileReader();
+                    reader.onload = function (e) { img.src = e.target.result; };
+                    reader.readAsDataURL(file);
+                });
+            }
+        })();
+    </script>
+}

@@ -1,2 +1,16 @@
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.AssemblyReference.cache
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll.config
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos3.6D64390B.Up2Date
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb

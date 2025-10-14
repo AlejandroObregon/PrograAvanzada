@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pedidos.Abstracciones.LogicaDeNegocio.Producto.EliminarInventario
+namespace Pedidos.Abstracciones.LogicaDeNegocio.Producto.EliminarProducto
 {
     public interface IEliminarProductoLN
     {

@@ -1,5 +1,5 @@
 ﻿
-new DataTable('#laTablaDeInventario');
+new DataTable('#laTablaDeProducto');
 
 $(document).ready(function () {
 	$("#miSweetAlert").on("click", function (event) {

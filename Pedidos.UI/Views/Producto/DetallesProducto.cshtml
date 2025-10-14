@@ -1,0 +1,95 @@
+﻿@model Pedidos.Abstracciones.ModelosParaUI.ProductoDto
+
+@{
+    ViewBag.Title = "Detalles del Artículo";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+
+            <h2 class="mb-4">@ViewBag.Title</h2>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Producto: @Html.DisplayFor(model => model.Nombre)</h4>
+                </div>
+                <div class="card-body">
+
+                    <div class="mb-3">
+                        <label class="form-label d-block">Imagen</label>
+                        <img src="@Url.Action("ImagenDeProductoPorCodigo", "Producto", new { codigo = Model.Id })" alt="Imagen del repuesto" style="max-width: 300px; height: auto; border:1px solid #ddd; padding:4px; border-radius:4px;" />
+                    </div>
+
+                    <dl class="row mb-0">
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Id)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Id)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Nombre)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Nombre)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.CategoriaId)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.CategoriaId)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Precio)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Precio)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.ImpuestoPorc)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.ImpuestoPorc)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Stock)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            <span class="badge bg-info text-dark">@Html.DisplayFor(model => model.Stock) unidades</span>
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Activo)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @if (Model.Activo)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactivo</span>
+                            }
+                        </dd>
+
+
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-4 d-flex justify-content-start gap-2">
+                @Html.ActionLink("Editar", "EditarProducto", new { id = Model.Id }, new { @class = "btn btn-warning" })
+
+                @Html.ActionLink("Volver a la Lista", "ListarProducto", null, new { @class = "btn btn-secondary" })
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -20,7 +20,8 @@ namespace Pedidos.Abstracciones.ModelosParaUI
 		public int Stock { get; set; }
 		public bool Activo { get; set; }
 		public string ImagenUrl { get; set; }
-	}
+        public HttpPostedFileBase archivo { get; set; }
+    }
 }
 
 

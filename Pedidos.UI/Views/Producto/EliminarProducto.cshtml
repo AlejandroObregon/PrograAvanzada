@@ -1,4 +1,4 @@
-﻿@model Inventario.Abstracciones.ModelosParaUI.InventarioDto
+﻿@model Pedidos.Abstracciones.ModelosParaUI.ProductoDto
 
 @{
     ViewBag.Title = "Confirmar Eliminación";
@@ -12,7 +12,7 @@
 
             <div class="alert alert-danger fade show mb-4" role="alert">
                 <i class="bi bi-exclamation-triangle-fill me-2"></i>
-                <strong>¡ATENCIÓN!</strong> ¿Está seguro que desea **ELIMINAR** este registro de inventario de forma permanente?
+                <strong>¡ATENCIÓN!</strong> ¿Está seguro que desea **ELIMINAR** este registro de Producto de forma permanente?
             </div>
 
             <div class="card shadow-sm">
@@ -24,38 +24,38 @@
                     <dl class="row mb-0">
 
                         <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.CodigoDelRepuesto)
+                            @Html.DisplayNameFor(model => model.Id)
                         </dt>
                         <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.CodigoDelRepuesto)
+                            @Html.DisplayFor(model => model.Id)
                         </dd>
 
                         <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.NombreDelRepuesto)
+                            @Html.DisplayNameFor(model => model.Nombre)
                         </dt>
                         <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.NombreDelRepuesto)
+                            @Html.DisplayFor(model => model.Nombre)
                         </dd>
 
                         <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.MarcaDelRepuesto)
+                            @Html.DisplayNameFor(model => model.CategoriaId)
                         </dt>
                         <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.MarcaDelRepuesto)
+                            @Html.DisplayFor(model => model.CategoriaId)
                         </dd>
 
                         <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Cantidad)
+                            @Html.DisplayNameFor(model => model.Stock)
                         </dt>
                         <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.Cantidad)
+                            @Html.DisplayFor(model => model.Stock)
                         </dd>
 
                         <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Estado)
+                            @Html.DisplayNameFor(model => model.Activo)
                         </dt>
                         <dd class="col-sm-8">
-                            @if (Model.Estado)
+                            @if (Model.Activo)
                             {
                                 <span class="badge bg-success">Activo</span>
                             }
@@ -79,7 +79,7 @@
 
                     <input type="submit" value="Eliminar" class="btn btn-danger btn-lg" />
 
-                    @Html.ActionLink("Cancelar y Volver", "ListarInventario", null, new { @class = "btn btn-secondary btn-lg" })
+                    @Html.ActionLink("Cancelar y Volver", "ListarProducto", null, new { @class = "btn btn-secondary btn-lg" })
                 </div>
             }
 

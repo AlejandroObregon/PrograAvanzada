@@ -12,3 +12,17 @@ E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.A
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.AccesoADatos\obj\Debug\Pedidos3.F09390D5.Up2Date
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.AccesoADatos\obj\Debug\Inventario.AccesoADatos.dll
 E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.AccesoADatos\obj\Debug\Inventario.AccesoADatos.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\Inventario.AccesoADatos.dll.config
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\Inventario.AccesoADatos.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\Inventario.AccesoADatos.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\EntityFramework.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\EntityFramework.xml
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\obj\Debug\Pedidos360.AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\obj\Debug\Pedidos360.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\obj\Debug\Pedidos3.F09390D5.Up2Date
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\obj\Debug\Inventario.AccesoADatos.dll
+C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograA\Pedidos.AccesoADatos\obj\Debug\Inventario.AccesoADatos.pdb
