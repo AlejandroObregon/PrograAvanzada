@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Inventario.Abstracciones.ModelosParaUI.InventarioDto>
+
+@{
+    // Título de la página
+    ViewBag.Title = "Listado de Inventario";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+
+            <h2 class="mb-3">@ViewBag.Title</h2>
+
+            <div class="mb-4 d-flex justify-content-between align-items-center">
+
+                @Html.ActionLink("Crear Nuevo", "CrearInventario", null, new { @class = "btn btn-primary" })
+
+                <a id="miSweetAlert" href="#" class="btn btn-outline-info">Alerta de Prueba</a>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-bordered" id="laTablaDeInventario">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.CodigoDelRepuesto)</th>
+                            <th>@Html.DisplayNameFor(model => model.NombreDelRepuesto)</th>
+                            <th>@Html.DisplayNameFor(model => model.MarcaDelRepuesto)</th>
+                            <th>@Html.DisplayNameFor(model => model.Vehiculo)</th>
+                            <th>@Html.DisplayNameFor(model => model.Modelo)</th>
+                            <th>@Html.DisplayNameFor(model => model.Anio)</th>
+                            <th class="text-center">@Html.DisplayNameFor(model => model.Cantidad)</th>
+                            <th>@Html.DisplayNameFor(model => model.FechaDeRegistro)</th>
+                            <th>@Html.DisplayNameFor(model => model.FechaDeModificacion)</th>
+                            <th>@Html.DisplayNameFor(model => model.Estado)</th>
+                            <th class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.CodigoDelRepuesto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.NombreDelRepuesto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.MarcaDelRepuesto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Vehiculo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Modelo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Anio)</td>
+                                <td class="text-center">@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                                <td>@Html.DisplayFor(modelItem => item.FechaDeRegistro)</td>
+                                <td>@Html.DisplayFor(modelItem => item.FechaDeModificacion)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Estado)</td>
+                                <td class="text-center text-nowrap">
+
+                                    @Html.ActionLink("Editar", "EditarInventario", new { id = item.Id }, new { @class = "btn btn-sm btn-info" }) |
+                                    @Html.ActionLink("Detalles", "DetallesInventario", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" }) |
+                                    @Html.ActionLink("Eliminar", "EliminarInventario", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/Inventario/ScriptDeInventario.js"></script>
+}

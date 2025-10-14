@@ -1,0 +1,2 @@
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.AssemblyReference.cache
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\Proyecto_Progra_Avanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.CoreCompileInputs.cache

@@ -1,0 +1,115 @@
+﻿@model Inventario.Abstracciones.ModelosParaUI.InventarioDto
+
+@{
+    ViewBag.Title = "Detalles del Artículo";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+
+            <h2 class="mb-4">@ViewBag.Title</h2>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Inventario: @Html.DisplayFor(model => model.NombreDelRepuesto)</h4>
+                </div>
+                <div class="card-body">
+
+                    <div class="mb-3">
+                        <label class="form-label d-block">Imagen</label>
+                        <img src="@Url.Action("ImagenDeInventarioPorCodigo", "Inventario", new { codigo = Model.CodigoDelRepuesto })" alt="Imagen del repuesto" style="max-width: 300px; height: auto; border:1px solid #ddd; padding:4px; border-radius:4px;" />
+                    </div>
+
+                    <dl class="row mb-0">
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.CodigoDelRepuesto)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.CodigoDelRepuesto)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.NombreDelRepuesto)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.NombreDelRepuesto)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.MarcaDelRepuesto)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.MarcaDelRepuesto)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Vehiculo)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Vehiculo)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Modelo)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Modelo)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Anio)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Anio)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Cantidad)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            <span class="badge bg-info text-dark">@Html.DisplayFor(model => model.Cantidad) unidades</span>
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Estado)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @if (Model.Estado)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactivo</span>
+                            }
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted pt-3">
+                            @Html.DisplayNameFor(model => model.FechaDeRegistro)
+                        </dt>
+                        <dd class="col-sm-8 pt-3">
+                            @Html.DisplayFor(model => model.FechaDeRegistro)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.FechaDeModificacion)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.FechaDeModificacion)
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-4 d-flex justify-content-start gap-2">
+                @Html.ActionLink("Editar", "EditarInventario", new { id = Model.Id }, new { @class = "btn btn-warning" })
+
+                @Html.ActionLink("Volver a la Lista", "ListarInventario", null, new { @class = "btn btn-secondary" })
+            </div>
+
+        </div>
+    </div>
+</div>

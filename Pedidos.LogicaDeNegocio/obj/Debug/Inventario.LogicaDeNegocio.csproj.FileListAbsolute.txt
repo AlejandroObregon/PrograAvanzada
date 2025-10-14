@@ -1,0 +1,42 @@
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventar.BF814967.Up2Date
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll.config
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.pdb
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.pdb
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll.config
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventar.BF814967.Up2Date
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll.config
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.AssemblyReference.cache
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\obj\Debug\Inventar.BF814967.Up2Date
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb

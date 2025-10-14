@@ -1,0 +1,18 @@
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\raulm\Downloads\Semana 4\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+E:\U\9 Cuatri\Programacion Avanzada\Avance #1\INVENTARIO FINALIZADO\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
