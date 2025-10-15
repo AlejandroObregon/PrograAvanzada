@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General\Fecha.cs" />
     <Compile Include="Cliente\ActualizarCliente\ActualizarClienteLN.cs" />
     <Compile Include="Cliente\CrearCliente\CrearClienteLN.cs" />
     <Compile Include="Cliente\EliminarCliente\EliminarClienteLN.cs" />
-    <Compile Include="Cliente\ListarClientes\ListarClientesLN.cs" />
+    <Compile Include="Cliente\ListarCliente\ListarClientesLN.cs" />
     <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdLN.cs" />
+    <Compile Include="General\Fecha.cs" />
     <Compile Include="Producto\ActualizarProducto\ActualizarProductoLN.cs" />
     <Compile Include="Producto\EliminarProducto\EliminarProductoLN.cs" />
     <Compile Include="Producto\CrearProducto\CrearProductoLN.cs" />

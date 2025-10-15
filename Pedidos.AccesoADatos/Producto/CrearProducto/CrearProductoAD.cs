@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.CrearProducto
 {
-	public class CrearClienteAD : ICrearClienteAD
+	public class CrearProductoAD : ICrearProductoAD
 	{
 		private ContextoProducto _contexto;
 
-		public CrearClienteAD()
+		public CrearProductoAD()
 		{
 			_contexto = new ContextoProducto();
 		}

@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PedidoController.cs" />
     <Compile Include="Controllers\ProductoController.cs" />
@@ -134,6 +135,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Views\Cliente\CrearCliente.cshtml" />
+    <Content Include="Views\Cliente\DetallesCliente.cshtml" />
+    <Content Include="Views\Cliente\EditarCliente.cshtml" />
+    <Content Include="Views\Cliente\EliminarCliente.cshtml" />
+    <Content Include="Views\Cliente\ListarCliente.cshtml" />
     <None Include="Views\Pedido\DetallesPedido.cshtml" />
     <Content Include="Views\Pedido\ListarPedido.cshtml" />
     <Content Include="Views\Pedido\EditarPedido.cshtml" />

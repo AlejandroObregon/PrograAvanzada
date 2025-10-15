@@ -1,0 +1,74 @@
+﻿@model Pedidos.Abstracciones.ModelosParaUI.ClienteDto
+
+@{
+    ViewBag.Title = "Confirmar Eliminación";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+
+            <h2 class="mb-4">@ViewBag.Title</h2>
+
+            <div class="alert alert-danger fade show mb-4" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                <strong>¡ATENCIÓN!</strong> ¿Está seguro que desea **ELIMINAR** este registro de Cliente de forma permanente?
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <h4 class="mb-0">Detalles del Cliente a Eliminar</h4>
+                </div>
+                <div class="card-body">
+
+                    <dl class="row mb-0">
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Id)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Id)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Nombre)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Nombre)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Cedula)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Cedula)
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">
+                            @Html.DisplayNameFor(model => model.Direccion)
+                        </dt>
+                        <dd class="col-sm-8 border-bottom pb-2">
+                            @Html.DisplayFor(model => model.Direccion)
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="d-flex justify-content-start gap-3 mt-4">
+
+                    <input type="submit" value="Eliminar" class="btn btn-danger btn-lg" />
+
+                    @Html.ActionLink("Cancelar y Volver", "ListarCliente", null, new { @class = "btn btn-secondary btn-lg" })
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

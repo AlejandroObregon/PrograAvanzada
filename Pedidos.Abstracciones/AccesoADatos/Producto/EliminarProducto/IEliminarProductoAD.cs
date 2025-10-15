@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.AccesoADatos.Producto.EliminarProducto
 {
-	public interface IEliminarClienteAD
+	public interface IEliminarProductoAD
 	{
 		int Eliminar(int id);
 	}

@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace Pedidos.LogicaDeNegocio.Producto.CrearProducto
 {
-	public class CrearClienteLN: ICrearClienteLN
+	public class CrearProductoLN: ICrearProductoLN
 	{
-		private ICrearClienteAD _crearProductoAD;
+		private ICrearProductoAD _crearProductoAD;
 		private IFecha _fecha;
 
-		public CrearClienteLN()
+		public CrearProductoLN()
 		{
 			_crearProductoAD = new CrearProductoAD();
 			_fecha = new Fecha();

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.ObtenerProductoPorId
 {
-	public class ObtenerProductoPorIdAD: IObtenerClientePorIdAD
+	public class ObtenerProductoPorIdAD: IObtenerProductoPorIdAD
 	{
 		private ContextoProducto _elContexto;
 		public ObtenerProductoPorIdAD()

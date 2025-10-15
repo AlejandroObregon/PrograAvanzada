@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Pedidos.Abstracciones.ModelosParaUI.ClienteDto>
+
+@{
+    // Título de la página
+    ViewBag.Title = "Listado de Clientes";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+
+            <h2 class="mb-3">@ViewBag.Title</h2>
+
+            <div class="mb-4 d-flex justify-content-between align-items-center">
+
+                @Html.ActionLink("Crear Nuevo", "CrearCliente", null, new { @class = "btn btn-primary" })
+
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-bordered" id="laTablaDeCliente">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Id)</th>
+                            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                            <th>@Html.DisplayNameFor(model => model.Cedula)</th>
+                            <th>@Html.DisplayNameFor(model => model.Correo)</th>
+                            <th>@Html.DisplayNameFor(model => model.Telefono)</th>
+                            <th>@Html.DisplayNameFor(model => model.Direccion)</th>
+                            <th class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Cedula)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Correo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Direccion)</td>
+                                <td class="text-center text-nowrap">
+
+                                    @Html.ActionLink("Editar", "EditarCliente", new { id = item.Id }, new { @class = "btn btn-sm btn-info" }) |
+                                    @Html.ActionLink("Detalles", "DetallesCliente", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" }) |
+                                    @Html.ActionLink("Eliminar", "EliminarCliente", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/Cliente/ScriptDeCliente.js"></script>
+}

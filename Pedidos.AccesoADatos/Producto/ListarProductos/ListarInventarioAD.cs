@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.ListarProducto
 {
-	public class ListarProductoAD: IListarClientesAD
+	public class ListarProductoAD: IListarProductosAD
 	{
 
 		private ContextoProducto _elContexto;

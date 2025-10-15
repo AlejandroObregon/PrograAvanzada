@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace Pedidos.LogicaDeNegocio.Producto.ObtenerProductoPorId
 {
-	public class ObtenerClientePorIdLN: IObtenerClientePorIdLN
+	public class ObtenerProductoPorIdLN: IObtenerProductoPorIdLN
 	{
-		private IObtenerClientePorIdAD _obtenerProductoPorId;
-		public ObtenerClientePorIdLN()
+		private IObtenerProductoPorIdAD _obtenerProductoPorId;
+		public ObtenerProductoPorIdLN()
 		{
 			_obtenerProductoPorId = new ObtenerProductoPorIdAD();
 		}
