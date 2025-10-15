@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.LogicaDeNegocio.Producto.ActualizarProducto
 {
-    public interface IActualizarProductoLN
+    public interface IActualizarClienteLN
     {
         int Actualizar(ProductoDto elProducto);
     }

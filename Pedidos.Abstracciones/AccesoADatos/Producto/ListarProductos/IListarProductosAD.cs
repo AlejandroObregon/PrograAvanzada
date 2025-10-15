@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.AccesoADatos.Producto.ListarProductos
 {
-	public interface IListarProductosAD
+	public interface IListarClientesAD
 	{
 		List<ProductoDto> Obtener();
 	}

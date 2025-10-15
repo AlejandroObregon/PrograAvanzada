@@ -23,11 +23,11 @@ namespace Producto.UI.Controllers
 {
     public class ProductoController : Controller
     {
-        private IListarProductosLN _listarProducto;
-        private ICrearProductoLN _crearProducto;
-        private IObtenerProductoPorIdLN _obtenerProductoPorId;
-        private IActualizarProductoLN _actualizarProducto;
-        private IEliminarProductoLN _eliminarProducto;
+        private IListarClientesLN _listarProducto;
+        private ICrearClienteLN _crearProducto;
+        private IObtenerClientePorIdLN _obtenerProductoPorId;
+        private IActualizarClienteLN _actualizarProducto;
+        private IEliminarClienteLN _eliminarProducto;
 		public ProductoController()
         {
             _listarProducto = new ListarProductosLN();

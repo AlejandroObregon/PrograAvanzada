@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace Pedidos.LogicaDeNegocio.Producto.ActualizarProducto
 {
-    public class ActualizarProductoLN : IActualizarProductoLN
+    public class ActualizarClienteLN : IActualizarClienteLN
     {
-        private IActualizarProductoAD _actualizarProductoAD;
+        private IActualizarClienteAD _actualizarProductoAD;
         private IFecha _fecha;
 
-        public ActualizarProductoLN()
+        public ActualizarClienteLN()
         {
             _actualizarProductoAD = new ActualizarProductoAD();
             _fecha = new Fecha();

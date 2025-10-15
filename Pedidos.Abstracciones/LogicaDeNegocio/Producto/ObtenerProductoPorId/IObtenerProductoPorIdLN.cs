@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.LogicaDeNegocio.Producto.ObtenerProductoPorId
 {
-	public interface IObtenerProductoPorIdLN
+	public interface IObtenerClientePorIdLN
 	{
 		ProductoDto Obtener(int id);
 	}

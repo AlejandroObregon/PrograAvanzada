@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Pedidos.LogicaDeNegocio.Producto.EliminarProducto
 {
-    public class EliminarProductoLN : IEliminarProductoLN
+    public class EliminarClienteLN : IEliminarClienteLN
     {
-        private IEliminarProductoAD _eliminarProductoAD;
+        private IEliminarClienteAD _eliminarProductoAD;
 
-        public EliminarProductoLN()
+        public EliminarClienteLN()
         {
             _eliminarProductoAD = new EliminarProductoAD();
         }

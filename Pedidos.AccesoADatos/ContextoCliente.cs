@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos
 {
-	public class Contexto : DbContext
+	public class ContextoCliente : DbContext
 	{
-		public Contexto() : base("name=Contexto")
+		public ContextoCliente() : base("name=Contexto")
 		{
 
 		}
 
-		public DbSet<ProductoAD> Productos { get; set; }
+		public DbSet<ClienteAD> Clientes { get; set; }
 	}
 }

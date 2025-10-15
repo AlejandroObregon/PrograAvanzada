@@ -12,7 +12,7 @@ namespace Producto.UI.Controllers
 {
     public class PedidoController : Controller
     {
-        private IListarProductosLN _listarProducto;
+        private IListarClientesLN _listarProducto;
         public PedidoController()
         {
             _listarProducto = new ListarProductosLN();

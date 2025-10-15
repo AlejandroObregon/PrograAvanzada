@@ -44,18 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos\Cliente\ActualizarCliente\IActualizarClienteAD.cs" />
+    <Compile Include="AccesoADatos\Cliente\CrearCliente\ICrearClienteAD.cs" />
+    <Compile Include="AccesoADatos\Cliente\EliminarCliente\IEliminarClienteAD.cs" />
+    <Compile Include="AccesoADatos\Cliente\ListarCliente\IListarClientesAD.cs" />
+    <Compile Include="AccesoADatos\Cliente\ObtenerClientePorId\IObtenerClientePorIdAD.cs" />
     <Compile Include="AccesoADatos\Producto\ActualizarProducto\IActualizarProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\CrearProducto\ICrearProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\EliminarProducto\IEliminarProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\ListarProductos\IListarProductosAD.cs" />
     <Compile Include="AccesoADatos\Producto\ObtenerProductoPorId\IObtenerProductoPorIdAD.cs" />
     <Compile Include="LogicaDeNegocio\General\IFecha.cs" />
+    <Compile Include="LogicaDeNegocio\Cliente\ActualizarCliente\IActualizarClienteLN.cs" />
+    <Compile Include="LogicaDeNegocio\Cliente\CrearCliente\ICrearClienteLN.cs" />
+    <Compile Include="LogicaDeNegocio\Cliente\EliminarCliente\IEliminarClienteLN.cs" />
+    <Compile Include="LogicaDeNegocio\Cliente\ListarClientes\IListarClientesLN.cs" />
+    <Compile Include="LogicaDeNegocio\Cliente\ObtenerClientePorId\IObtenerClientePorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\CrearProducto\ICrearProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ActualizarProducto\IActualizarProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\EliminarProducto\IEliminarProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ListarProductos\IListarProductosLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ObtenerProductoPorId\IObtenerProductoPorIdLN.cs" />
     <Compile Include="ModelosParaUI\EstadosDelProducto.cs" />
+    <Compile Include="ModelosParaUI\ClienteDto.cs" />
     <Compile Include="ModelosParaUI\ProductoDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.EliminarProducto
 {
-	public class EliminarProductoAD: IEliminarProductoAD
+	public class EliminarClienteAD: IEliminarClienteAD
 	{
-		private Contexto _contexto;
-		public EliminarProductoAD()
+		private ContextoProducto _contexto;
+		public EliminarClienteAD()
 		{
-			_contexto = new Contexto();
+			_contexto = new ContextoProducto();
 		}
 
 		public int Eliminar(int id)

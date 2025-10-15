@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.CrearProducto
 {
-	public class CrearProductoAD : ICrearProductoAD
+	public class CrearClienteAD : ICrearClienteAD
 	{
-		private Contexto _contexto;
+		private ContextoProducto _contexto;
 
-		public CrearProductoAD()
+		public CrearClienteAD()
 		{
-			_contexto = new Contexto();
+			_contexto = new ContextoProducto();
 		}
 
 		public async Task<int> Guardar(ProductoDto elProducto)

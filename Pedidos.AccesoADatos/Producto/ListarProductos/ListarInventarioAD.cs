@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.ListarProducto
 {
-	public class ListarProductoAD: IListarProductosAD
+	public class ListarProductoAD: IListarClientesAD
 	{
 
-		private Contexto _elContexto;
+		private ContextoProducto _elContexto;
 		public ListarProductoAD()
 		{
-			_elContexto = new Contexto();
+			_elContexto = new ContextoProducto();
 		}
 
 		public List<ProductoDto> Obtener()

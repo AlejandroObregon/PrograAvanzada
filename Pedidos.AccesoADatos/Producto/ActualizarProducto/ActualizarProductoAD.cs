@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace Pedidos.AccesoADatos.Producto.ActualizarProducto
 {
-	public class ActualizarProductoAD: IActualizarProductoAD
+	public class ActualizarClienteAD: IActualizarClienteAD
 	{
-		private Contexto _contexto;
-		public ActualizarProductoAD()
+		private ContextoProducto _contexto;
+		public ActualizarClienteAD()
 		{
-			_contexto = new Contexto();
+			_contexto = new ContextoProducto();
 		}
 
 		public int Actualizar(ProductoDto elProducto)

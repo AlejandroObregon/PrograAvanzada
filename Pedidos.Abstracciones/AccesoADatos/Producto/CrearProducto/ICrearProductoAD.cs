@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.AccesoADatos.Producto.CrearProducto
 {
-	public interface ICrearProductoAD
+	public interface ICrearClienteAD
 	{
 		Task<int> Guardar(ProductoDto elProducto);
 	}

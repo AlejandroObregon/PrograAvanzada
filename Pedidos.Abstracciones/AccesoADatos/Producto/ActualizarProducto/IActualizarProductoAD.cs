@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.Abstracciones.AccesoADatos.Producto.ActualizarProducto
 {
-	public interface IActualizarProductoAD
+	public interface IActualizarClienteAD
 	{
 		int Actualizar(ProductoDto elProducto);
 	}

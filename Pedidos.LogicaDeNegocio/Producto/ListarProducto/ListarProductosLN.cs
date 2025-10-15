@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Pedidos.LogicaDeNegocio.Producto.ListarProducto
 {
-	public class ListarProductosLN: IListarProductosLN
+	public class ListarClientesLN: IListarClientesLN
 	{
-		private IListarProductosAD _listarProductoAD;
-		public ListarProductosLN() {
+		private IListarClientesAD _listarProductoAD;
+		public ListarClientesLN() {
 			_listarProductoAD = new ListarProductoAD();
 		}
 

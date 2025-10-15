@@ -52,7 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contexto.cs" />
+    <Compile Include="ContextoCliente.cs" />
+    <Compile Include="ContextoProducto.cs" />
+    <Compile Include="Cliente\ActualizarCliente\ActualizarClienteAD.cs" />
+    <Compile Include="Cliente\CrearCliente\CrearClienteAD.cs" />
+    <Compile Include="Cliente\EliminarCliente\EliminarClienteAD.cs" />
+    <Compile Include="Cliente\ListarClientes\ListarClientesAD.cs" />
+    <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdAD.cs" />
+    <Compile Include="Modelos\ClienteAD.cs" />
     <Compile Include="Producto\ActualizarProducto\ActualizarProductoAD.cs" />
     <Compile Include="Producto\CrearProducto\CrearProductoAD.cs" />
     <Compile Include="Producto\EliminarProducto\EliminarProductoAD.cs" />
