@@ -140,9 +140,6 @@
     <Content Include="Views\Cliente\EditarCliente.cshtml" />
     <Content Include="Views\Cliente\EliminarCliente.cshtml" />
     <Content Include="Views\Cliente\ListarCliente.cshtml" />
-    <None Include="Views\Pedido\DetallesPedido.cshtml" />
-    <Content Include="Views\Pedido\ListarPedido.cshtml" />
-    <Content Include="Views\Pedido\EditarPedido.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -204,7 +201,10 @@
     <Content Include="Views\Producto\CrearProducto.cshtml" />
     <Content Include="Views\Producto\EditarProducto.cshtml" />
     <Content Include="Views\Producto\EliminarProducto.cshtml" />
-    <Content Include="Views\Pedido\CrearPedido.cshtml" />
+    <Content Include="Views\pedido\CrearPedido.cshtml" />
+    <Content Include="Views\pedido\DetallesPedido.cshtml" />
+    <Content Include="Views\pedido\EditarPedido.cshtml" />
+    <Content Include="Views\pedido\ListarPedido.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

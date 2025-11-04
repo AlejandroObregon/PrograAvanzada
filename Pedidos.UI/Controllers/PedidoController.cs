@@ -1,6 +1,14 @@
-using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ListarProductos;
+using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ActualizarPedido;
+using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.CrearPedido;
+using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.EliminarPedido;
+using Pedidos.Abstracciones.LogicaDeNegocio.Cliente.ListarClientes;
+using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
 using Pedidos.Abstracciones.ModelosParaUI;
-using Pedidos.LogicaDeNegocio.Producto.ListarProducto;
+using Pedidos.LogicaDeNegocio.Pedido.ActualizarPedido;
+using Pedidos.LogicaDeNegocio.Pedido.CrearPedido;
+using Pedidos.LogicaDeNegocio.Pedido.EliminarPedido;
+using Pedidos.LogicaDeNegocio.Cliente.ListarCliente;
+using Pedidos.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,21 +16,28 @@ using System.Web;
 using System.Web.Mvc;
 
 
-namespace Producto.UI.Controllers
+namespace Pedido.UI.Controllers
 {
     public class PedidoController : Controller
     {
-        private IListarProductosLN _listarProducto;
+        private IListarClientesLN _listarPedido;
+        private ICrearPedidoLN _crearPedido;
+        private IObtenerPedidoPorIdLN _obtenerPedidoPorId;
+        private IActualizarPedidoLN _actualizarPedido;
+        private IEliminarPedidoLN _eliminarPedido;
         public PedidoController()
         {
-            _listarProducto = new ListarProductosLN();
-
+            _listarPedido = new ListarClientesLN();
+            _crearPedido = new CrearPedidoLN();
+            _obtenerPedidoPorId = new ObtenerPedidoPorIdLN();
+            _actualizarPedido = new ActualizarPedidoLN();
+            _eliminarPedido = new EliminarPedidoLN();
         }
         public ActionResult ListarPedido()
         {
-            List<ProductoDto> laListaDeProducto = _listarProducto.Obtener();
+            List<ClienteDto> laListaDePedidos = _listarPedido.Obtener();
             int i = 0;
-            return View(laListaDeProducto);
+            return View(laListaDePedidos);
         }
 
         public ActionResult DetallesPedido()

@@ -49,6 +49,11 @@
     <Compile Include="AccesoADatos\Cliente\EliminarCliente\IEliminarClienteAD.cs" />
     <Compile Include="AccesoADatos\Cliente\ListarCliente\IListarClientesAD.cs" />
     <Compile Include="AccesoADatos\Cliente\ObtenerClientePorId\IObtenerClientePorIdAD.cs" />
+    <Compile Include="AccesoADatos\pedido\ActualizarPedido\IActualizarPedidoAD.cs" />
+    <Compile Include="AccesoADatos\pedido\CrearPedido\ICrearPedidoAD.cs" />
+    <Compile Include="AccesoADatos\pedido\EliminarPedido\IEliminarPedidoAD.cs" />
+    <Compile Include="AccesoADatos\pedido\ListarPedido\IListarPedidoAD.cs" />
+    <Compile Include="AccesoADatos\pedido\ObtenerPedidoPorId\IObtenerPedidoPorIdAD.cs" />
     <Compile Include="AccesoADatos\Producto\ActualizarProducto\IActualizarProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\CrearProducto\ICrearProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\EliminarProducto\IEliminarProductoAD.cs" />
@@ -60,6 +65,11 @@
     <Compile Include="LogicaDeNegocio\Cliente\ListarClientes\IListarClientesLN.cs" />
     <Compile Include="LogicaDeNegocio\Cliente\ObtenerClientePorId\IObtenerClientePorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\General\IFecha.cs" />
+    <Compile Include="LogicaDeNegocio\pedido\ActualizarPedido\IActualizarPedidoLN.cs" />
+    <Compile Include="LogicaDeNegocio\pedido\CrearPedido\ICrearPedidoLN.cs" />
+    <Compile Include="LogicaDeNegocio\pedido\EliminarPedido\IEliminarPedidoLN.cs" />
+    <Compile Include="LogicaDeNegocio\pedido\ListarPedido\IListarPedidoLN.cs" />
+    <Compile Include="LogicaDeNegocio\pedido\ObtenerPedidoPorId\IObtenerPedidoPorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\CrearProducto\ICrearProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ActualizarProducto\IActualizarProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\EliminarProducto\IEliminarProductoLN.cs" />
@@ -67,6 +77,7 @@
     <Compile Include="LogicaDeNegocio\Producto\ObtenerProductoPorId\IObtenerProductoPorIdLN.cs" />
     <Compile Include="ModelosParaUI\ClienteDto.cs" />
     <Compile Include="ModelosParaUI\EstadosDelProducto.cs" />
+    <Compile Include="ModelosParaUI\PedidoDto.cs" />
     <Compile Include="ModelosParaUI\ProductoDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

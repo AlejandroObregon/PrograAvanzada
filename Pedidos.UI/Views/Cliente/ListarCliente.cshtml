@@ -57,5 +57,13 @@
 </div>
 
 @section Scripts {
-    <script src="~/Scripts/Cliente/ScriptDeCliente.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#laTablaDeCliente').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
 }
