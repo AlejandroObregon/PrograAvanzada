@@ -64,7 +64,6 @@
     <Compile Include="Modelos\PedidoAD.cs" />
     <Compile Include="pedido\ActualizarPedido\ActualizarPedidoAD.cs" />
     <Compile Include="pedido\CrearPedido\CrearPedidoAD.cs" />
-    <Compile Include="pedido\EliminarPedido\EliminarPedidoAD.cs" />
     <Compile Include="pedido\ListarPedido\ListarPedidoAD.cs" />
     <Compile Include="pedido\ObtenerPedidoPorId\ObtenerPedidoPorIdAD.cs" />
     <Compile Include="Producto\ActualizarProducto\ActualizarProductoAD.cs" />

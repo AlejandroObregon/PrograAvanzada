@@ -1,14 +1,14 @@
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ActualizarPedido;
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.CrearPedido;
-using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.EliminarPedido;
 using Pedidos.Abstracciones.LogicaDeNegocio.Cliente.ListarClientes;
+using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ListarProductos;
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
 using Pedidos.Abstracciones.ModelosParaUI;
 using Pedidos.LogicaDeNegocio.Pedido.ActualizarPedido;
 using Pedidos.LogicaDeNegocio.Pedido.CrearPedido;
-using Pedidos.LogicaDeNegocio.Pedido.EliminarPedido;
 using Pedidos.LogicaDeNegocio.Cliente.ListarCliente;
 using Pedidos.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
+using Pedidos.LogicaDeNegocio.Producto.ListarProducto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,14 +24,14 @@ namespace Pedido.UI.Controllers
         private ICrearPedidoLN _crearPedido;
         private IObtenerPedidoPorIdLN _obtenerPedidoPorId;
         private IActualizarPedidoLN _actualizarPedido;
-        private IEliminarPedidoLN _eliminarPedido;
+        private IListarProductosLN _listarProducto;
         public PedidoController()
         {
             _listarPedido = new ListarClientesLN();
             _crearPedido = new CrearPedidoLN();
             _obtenerPedidoPorId = new ObtenerPedidoPorIdLN();
             _actualizarPedido = new ActualizarPedidoLN();
-            _eliminarPedido = new EliminarPedidoLN();
+            _listarProducto = new ListarProductosLN();
         }
         public ActionResult ListarPedido()
         {
@@ -45,9 +45,21 @@ namespace Pedido.UI.Controllers
             return View();
         }
 
-        public ActionResult CrearPedido()
+        public ActionResult CrearPedido(int Id)
         {
-            return View();
+            List<ProductoDto> laListaDeProducto = _listarProducto.Obtener();
+            int i = 0;
+
+            DateTime now = DateTime.Now;
+            PedidoDto elPedido = new PedidoDto
+            {
+                ClienteId = Id,
+                Productos = laListaDeProducto
+            }
+            ;
+
+           
+            return View(elPedido);
         }
 
         public ActionResult EditarPedido()

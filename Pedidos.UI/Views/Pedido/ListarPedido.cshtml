@@ -31,8 +31,7 @@
                                     <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Direccion)</td>
                                     <td class="text-center text-nowrap">
-
-                                        @Html.ActionLink("Pedir", "CrearPedido", new { id = item.Id }, new { @class = "btn btn-sm btn-info" }) 
+                                        @Html.ActionLink("Pedir", "CrearPedido", new { Id = item.Id }, new { @class = "btn btn-primary" })
 
                                     </td>
                                 </tr>

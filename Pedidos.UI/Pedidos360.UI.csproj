@@ -170,7 +170,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\DataTable\dataTables.js" />
-    <Content Include="Scripts\Inventario\ScriptDeInventario.js" />
+    <Content Include="Scripts\Proyecto\ScriptProyecto.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
     <Content Include="Scripts\jquery-3.7.0.slim.js" />
@@ -203,7 +203,6 @@
     <Content Include="Views\Producto\EliminarProducto.cshtml" />
     <Content Include="Views\pedido\CrearPedido.cshtml" />
     <Content Include="Views\pedido\DetallesPedido.cshtml" />
-    <Content Include="Views\pedido\EditarPedido.cshtml" />
     <Content Include="Views\pedido\ListarPedido.cshtml" />
   </ItemGroup>
   <ItemGroup>

@@ -50,7 +50,6 @@
     <Compile Include="General\Fecha.cs" />
     <Compile Include="pedido\ActualizarPedido\ActualizarPedidoLN.cs" />
     <Compile Include="pedido\CrearPedido\CrearPedidoLN.cs" />
-    <Compile Include="pedido\EliminarPedido\EliminarPedidoLN.cs" />
     <Compile Include="pedido\ListarPedido\ListarPedidoLN.cs" />
     <Compile Include="pedido\ObtenerPedidoPorId\ObtenerPedidoPorIdLN.cs" />
     <Compile Include="Producto\ActualizarProducto\ActualizarProductoLN.cs" />

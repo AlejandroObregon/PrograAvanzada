@@ -51,7 +51,6 @@
     <Compile Include="AccesoADatos\Cliente\ObtenerClientePorId\IObtenerClientePorIdAD.cs" />
     <Compile Include="AccesoADatos\pedido\ActualizarPedido\IActualizarPedidoAD.cs" />
     <Compile Include="AccesoADatos\pedido\CrearPedido\ICrearPedidoAD.cs" />
-    <Compile Include="AccesoADatos\pedido\EliminarPedido\IEliminarPedidoAD.cs" />
     <Compile Include="AccesoADatos\pedido\ListarPedido\IListarPedidoAD.cs" />
     <Compile Include="AccesoADatos\pedido\ObtenerPedidoPorId\IObtenerPedidoPorIdAD.cs" />
     <Compile Include="AccesoADatos\Producto\ActualizarProducto\IActualizarProductoAD.cs" />
@@ -67,7 +66,6 @@
     <Compile Include="LogicaDeNegocio\General\IFecha.cs" />
     <Compile Include="LogicaDeNegocio\pedido\ActualizarPedido\IActualizarPedidoLN.cs" />
     <Compile Include="LogicaDeNegocio\pedido\CrearPedido\ICrearPedidoLN.cs" />
-    <Compile Include="LogicaDeNegocio\pedido\EliminarPedido\IEliminarPedidoLN.cs" />
     <Compile Include="LogicaDeNegocio\pedido\ListarPedido\IListarPedidoLN.cs" />
     <Compile Include="LogicaDeNegocio\pedido\ObtenerPedidoPorId\IObtenerPedidoPorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\CrearProducto\ICrearProductoLN.cs" />
