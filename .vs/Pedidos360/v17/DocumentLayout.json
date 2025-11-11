@@ -3,76 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograavanzada\\pedidos.ui\\views\\pedido\\crearpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\crearpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograavanzada\\pedidos.accesoadatos\\pedido\\crearpedido\\crearpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\pedido\\crearpedido\\crearpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\views\\pedido\\listarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\listarpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\views\\producto\\listarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\producto\\listarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.abstracciones\\modelosparaui\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\views\\pedido\\detallespedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\pedido\\detallespedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\scripts\\proyecto\\scriptproyecto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\scripts\\proyecto\\scriptproyecto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.logicadenegocio\\pedido\\crearpedido\\crearpedidoln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|solutionrelative:pedidos.logicadenegocio\\pedido\\crearpedido\\crearpedidoln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.logicadenegocio\\cliente\\crearcliente\\crearclienteln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|solutionrelative:pedidos.logicadenegocio\\cliente\\crearcliente\\crearclienteln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.accesoadatos\\contextopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\contextopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.accesoadatos\\modelos\\pedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\modelos\\pedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.accesoadatos\\modelos\\productoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\modelos\\productoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\pedido\\crearpedido\\icrearpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\pedido\\crearpedido\\icrearpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\pedido\\listarpedido\\ilistarpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\pedido\\listarpedido\\ilistarpedidoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\views\\cliente\\detallescliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\cliente\\detallescliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\pedidos.ui\\views\\cliente\\listarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\cliente\\listarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|c:\\users\\dques\\documentos\\ucosas\\programacionavanzada\\prograavanzada\\pedidos.accesoadatos\\cliente\\obtenerclienteporid\\obtenerclienteporidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\cliente\\obtenerclienteporid\\obtenerclienteporidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,231 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PedidoDto.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\PedidoDto.cs",
-              "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\PedidoDto.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\PedidoDto.cs",
-              "RelativeToolTip": "Pedidos.Abstracciones\\ModelosParaUI\\PedidoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:53:47.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PedidoController.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\PedidoController.cs",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\PedidoController.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\PedidoController.cs",
-              "RelativeToolTip": "Pedidos.UI\\Controllers\\PedidoController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:37:44.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListarProducto.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\Producto\\ListarProducto.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:47:42.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Pedidos.UI\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:38:16.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "Pedidos.UI\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCsAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:30:48.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListarPedido.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\ListarPedido.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\pedido\\ListarPedido.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\ListarPedido.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\pedido\\ListarPedido.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:47:01.594Z",
+              "Title": "ObtenerClientePorIdAD.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
+              "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
+              "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:30:53.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrearPedido.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\CrearPedido.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\pedido\\CrearPedido.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\CrearPedido.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\pedido\\CrearPedido.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwGEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T15:56:24.136Z",
+              "Title": "CrearPedidoAD.cs",
+              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\pedido\\CrearPedido\\CrearPedidoAD.cs",
+              "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\pedido\\CrearPedido\\CrearPedidoAD.cs",
+              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\pedido\\CrearPedido\\CrearPedidoAD.cs",
+              "RelativeToolTip": "Pedidos.AccesoADatos\\pedido\\CrearPedido\\CrearPedidoAD.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:24:25.368Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductoAD.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
-              "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
-              "RelativeToolTip": "Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:28:26.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DetallesPedido.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\DetallesPedido.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\pedido\\DetallesPedido.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\pedido\\DetallesPedido.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\pedido\\DetallesPedido.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T15:56:23.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ICrearPedidoAD.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\pedido\\CrearPedido\\ICrearPedidoAD.cs",
-              "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\pedido\\CrearPedido\\ICrearPedidoAD.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\pedido\\CrearPedido\\ICrearPedidoAD.cs",
-              "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\pedido\\CrearPedido\\ICrearPedidoAD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:26:53.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ScriptProyecto.js",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Scripts\\Proyecto\\ScriptProyecto.js",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Scripts\\Proyecto\\ScriptProyecto.js",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Scripts\\Proyecto\\ScriptProyecto.js",
-              "RelativeToolTip": "Pedidos.UI\\Scripts\\Proyecto\\ScriptProyecto.js",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T17:30:03.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CrearPedidoLN.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\pedido\\CrearPedido\\CrearPedidoLN.cs",
-              "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\pedido\\CrearPedido\\CrearPedidoLN.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\pedido\\CrearPedido\\CrearPedidoLN.cs",
-              "RelativeToolTip": "Pedidos.LogicaDeNegocio\\pedido\\CrearPedido\\CrearPedidoLN.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:29:18.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CrearClienteLN.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
-              "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
-              "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:29:28.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IListarPedidoAD.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\pedido\\ListarPedido\\IListarPedidoAD.cs",
-              "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\pedido\\ListarPedido\\IListarPedidoAD.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\pedido\\ListarPedido\\IListarPedidoAD.cs",
-              "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\pedido\\ListarPedido\\IListarPedidoAD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:26:50.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ListarCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\ListarCliente.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Cliente\\ListarCliente.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\ListarCliente.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\Cliente\\ListarCliente.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:47:28.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PedidoAD.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\PedidoAD.cs",
-              "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Modelos\\PedidoAD.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\PedidoAD.cs",
-              "RelativeToolTip": "Pedidos.AccesoADatos\\Modelos\\PedidoAD.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:45:44.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ContextoPedido.cs",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\ContextoPedido.cs",
-              "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\ContextoPedido.cs",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.AccesoADatos\\ContextoPedido.cs",
-              "RelativeToolTip": "Pedidos.AccesoADatos\\ContextoPedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:43:54.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DetallesCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\DetallesCliente.cshtml",
-              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Cliente\\DetallesCliente.cshtml",
-              "ToolTip": "C:\\Users\\dques\\Documentos\\UCosas\\ProgramacionAvanzada\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\DetallesCliente.cshtml",
-              "RelativeToolTip": "Pedidos.UI\\Views\\Cliente\\DetallesCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T15:59:50.085Z"
             }
           ]
         }

@@ -14,15 +14,20 @@ namespace Pedidos.Abstracciones.ModelosParaUI
         [Required]
         public int ClienteId { get; set; }
         public int UsuarioId { get; set; }
-        public int ProductoId { get; set; }
-        public IEnumerable<ProductoDto> Productos { get; set; }
-
-        public decimal Precio { get; set; }
         public DateTime Fecha { get; set; }
-        public int Cantidad { get; set; }
         public decimal Subtotal { get; set; }
         public decimal Impuestos { get; set; }
         public decimal Total { get; set; }
         public string Estado { get; set; }
+
+
+        public int PedidoId { get; set; }
+        public int ProductoId { get; set; }
+        public int Cantidad { get; set; }
+        public decimal Precio { get; set; }
+        public decimal Descuento { get; set; }
+        public int ImpuestosPorc { get; set; }
+        public IEnumerable<ProductoDto> Productos { get; set; }
+
     }
 }

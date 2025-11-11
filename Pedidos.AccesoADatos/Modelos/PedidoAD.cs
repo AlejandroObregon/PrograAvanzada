@@ -19,12 +19,8 @@ namespace Pedidos.AccesoADatos.Modelos
         [Column("UsuarioId")]
         public int UsuarioId { get; set; }
         [Column("Fecha")]
-        public int ProductoId { get; set; }
-        [Column("ProductoId")]
         public DateTime Fecha { get; set; }
         [Column("Subtotal")]
-        public int Cantidad { get; set; }
-        [Column("Cantidad")]
         public decimal Subtotal { get; set; }
         [Column("Impuestos")]
         public decimal Impuestos { get; set; }

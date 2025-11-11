@@ -59,9 +59,11 @@
     <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdAD.cs" />
     <Compile Include="ContextoCliente.cs" />
     <Compile Include="ContextoPedido.cs" />
+    <Compile Include="ContextoPedidoDetalle.cs" />
     <Compile Include="ContextoProducto.cs" />
     <Compile Include="Modelos\ClienteAD.cs" />
     <Compile Include="Modelos\PedidoAD.cs" />
+    <Compile Include="Modelos\PedidoDetalleAD.cs" />
     <Compile Include="pedido\ActualizarPedido\ActualizarPedidoAD.cs" />
     <Compile Include="pedido\CrearPedido\CrearPedidoAD.cs" />
     <Compile Include="pedido\ListarPedido\ListarPedidoAD.cs" />

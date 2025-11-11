@@ -13,36 +13,63 @@ namespace Pedidos.AccesoADatos.Pedido.CrearPedido
 	public class CrearPedidoAD : ICrearPedidoAD
 	{
 		private ContextoPedido _contexto;
+		private ContextoPedidoDetalle _contextod;
 
 		public CrearPedidoAD()
 		{
 			_contexto = new ContextoPedido();
-		}
+            _contextod = new ContextoPedidoDetalle();
+        }
 
 		public async Task<int> Guardar(PedidoDto elPedido)
 		{
 			PedidoAD elPedidoAGuardar = ConvertirObjetoParaAD(elPedido);
-			
-			_contexto.Pedido.Add(elPedidoAGuardar);
-			
-			EntityState estado = _contexto.Entry(elPedidoAGuardar).State = System.Data.Entity.EntityState.Added;
+            _contexto.Pedido.Add(elPedidoAGuardar);
+            EntityState estado = _contexto.Entry(elPedidoAGuardar).State = System.Data.Entity.EntityState.Added;
 			int cantidadDeDatosAgregados = await _contexto.SaveChangesAsync();
-			return cantidadDeDatosAgregados;
+
+            elPedido.PedidoId = elPedidoAGuardar.Id;
+            PedidoDetalleAD elPedidoDetalleAGuardar = ConvertirObjetoParaAD2(elPedido);
+            _contextod.PedidoDetalle.Add(elPedidoDetalleAGuardar);
+            EntityState estadod = _contextod.Entry(elPedidoDetalleAGuardar).State = System.Data.Entity.EntityState.Added;
+            int cantidadDeDatosAgregadosd = await _contextod.SaveChangesAsync();
+
+            return cantidadDeDatosAgregados;
 		}
 		
 		
-private PedidoAD ConvertirObjetoParaAD(PedidoDto Pedido)
+		private PedidoAD ConvertirObjetoParaAD(PedidoDto Pedido)
 		{
-			return new PedidoAD {
+            DateTime localDate = DateTime.Now;
+
+            return new PedidoAD {
                 Id = Pedido.Id,
                 ClienteId = Pedido.ClienteId,
-                UsuarioId = Pedido.UsuarioId,
-                Fecha = Pedido.Fecha,
+                UsuarioId = 1,
+                Fecha = localDate,
                 Subtotal = Pedido.Subtotal,
                 Impuestos = Pedido.Impuestos,
                 Total = Pedido.Total,
-                Estado = Pedido.Estado,
+                Estado = "Pendiente",
             };
 		}
-	}
+
+        private PedidoDetalleAD ConvertirObjetoParaAD2(PedidoDto Pedido)
+        {
+            DateTime localDate = DateTime.Now;
+
+            return new PedidoDetalleAD
+            {
+        
+                PedidoId = Pedido.PedidoId,
+                ProductoId = Pedido.ProductoId,
+                Cantidad = Pedido.Cantidad,
+                PrecioUnit = Pedido.Precio,
+                Descuento = Pedido.Descuento,
+                ImpuestoPorc = Pedido.ImpuestosPorc,
+                TotalLinea = Pedido.Total
+            };
+        }
+    }
 }
+
