@@ -22,3 +22,9 @@ C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abs
 C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.CoreCompileInputs.cache
 C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
 C:\Users\dques\Documentos\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.AssemblyReference.cache
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.CoreCompileInputs.cache
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\GitHub\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb

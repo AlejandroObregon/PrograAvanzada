@@ -1,0 +1,23 @@
+﻿@model Producto.UI.Models.LoginViewModel
+
+<h2>Iniciar Sesion</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email, new {@class = "form-control"})
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+    
+    <div>
+        @Html.LabelFor(x => x.Password)
+        @Html.TextBoxFor(x => x.Password, new {@class = "form-control"})
+        @Html.ValidationMessageFor(x => x.Password)
+    </div>
+    
+    <button type="submit" class="btn btn-dark">Iniciar Sesion</button>
+    
+}
