@@ -21,6 +21,7 @@ using System.IO;
 
 namespace Cliente.UI.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ClienteController : Controller
     {
         private IListarClientesLN _listarCliente;
@@ -39,6 +40,7 @@ namespace Cliente.UI.Controllers
 
 
         // GET: Cliente
+        [Authorize(Roles = "Admin")]
         public ActionResult ListarCliente()
         {
             List<ClienteDto> laListaDeCliente = _listarCliente.Obtener();
@@ -47,6 +49,7 @@ namespace Cliente.UI.Controllers
         }
 
         // GET: Cliente/Details/5
+        [Authorize(Roles = "Admin")]
         public ActionResult DetallesCliente(int id)
         {
             ClienteDto elCliente = _obtenerClientePorId.Obtener(id);
@@ -54,6 +57,7 @@ namespace Cliente.UI.Controllers
         }
 
         // GET: Cliente/Create
+        [Authorize(Roles = "Admin")]
         public ActionResult CrearCliente()
         {
             return View();
@@ -61,6 +65,7 @@ namespace Cliente.UI.Controllers
 
         // POST: Cliente/Create
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> CrearCliente(ClienteDto elClienteCreado)
         {
             try
@@ -75,6 +80,7 @@ namespace Cliente.UI.Controllers
         }
 
         // GET: Cliente/Edit/5
+        [Authorize(Roles = "Admin")]
         public ActionResult EditarCliente(int id)
         {
             ClienteDto elCliente = _obtenerClientePorId.Obtener(id);
@@ -84,6 +90,7 @@ namespace Cliente.UI.Controllers
         // POST: Cliente/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult EditarCliente(ClienteDto elCliente)
         {
             try
@@ -98,6 +105,7 @@ namespace Cliente.UI.Controllers
         }
 
         // GET: Cliente/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult EliminarCliente(int id)
         {
             ClienteDto elCliente = _obtenerClientePorId.Obtener(id);
@@ -108,6 +116,7 @@ namespace Cliente.UI.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("EliminarCliente")] // Mantiene la ruta POST coherente con el formulario de la vista
+        [Authorize(Roles = "Admin")]
         public ActionResult EliminarClienteConfirmado(int id)
         {
             try
@@ -122,7 +131,8 @@ namespace Cliente.UI.Controllers
             }
         }
 
-        // Devuelve la imagen del repuesto por código o un placeholder si no existe
+        // Devuelve la imagen del repuesto por cï¿½digo o un placeholder si no existe
+        [Authorize(Roles = "Admin")]
         public ActionResult ImagenDeClientePorCodigo(string codigo)
         {
             if (string.IsNullOrWhiteSpace(codigo))
@@ -180,7 +190,7 @@ namespace Cliente.UI.Controllers
             if (string.IsNullOrEmpty(extension)) extension = ".png";
             string rutaDestino = Path.Combine(carpeta, nombreBase + extension.ToLowerInvariant());
 
-            // Borra imágenes previas del mismo código para mantener una sola
+            // Borra imï¿½genes previas del mismo cï¿½digo para mantener una sola
             foreach (var existente in Directory.GetFiles(carpeta, nombreBase + ".*"))
             {
                 try { System.IO.File.Delete(existente); } catch { }

@@ -21,6 +21,7 @@ using System.IO;
 
 namespace Producto.UI.Controllers
 {
+    [Authorize]
     public class ProductoController : Controller
     {
         private IListarProductosLN _listarProducto;
@@ -39,6 +40,7 @@ namespace Producto.UI.Controllers
 
 
         // GET: Producto
+        [Authorize(Roles = "Admin,Ventas,Operaciones")]
         public ActionResult ListarProducto()
         {
             List<ProductoDto> laListaDeProducto = _listarProducto.Obtener();
@@ -47,6 +49,7 @@ namespace Producto.UI.Controllers
         }
 
         // GET: Producto/Details/5
+        [Authorize(Roles = "Admin,Ventas,Operaciones")]
         public ActionResult DetallesProducto(int id)
         {
             ProductoDto elProducto = _obtenerProductoPorId.Obtener(id);
@@ -54,6 +57,7 @@ namespace Producto.UI.Controllers
         }
 
         // GET: Producto/Create
+        [Authorize(Roles = "Admin,Operaciones")]
         public ActionResult CrearProducto()
         {
             return View();
@@ -61,6 +65,7 @@ namespace Producto.UI.Controllers
 
         // POST: Producto/Create
         [HttpPost]
+        [Authorize(Roles = "Admin,Operaciones")]
         public async Task<ActionResult> CrearProducto(ProductoDto elProductoCreado)
         {
             try
@@ -93,6 +98,7 @@ namespace Producto.UI.Controllers
         }
 
         // GET: Producto/Edit/5
+        [Authorize(Roles = "Admin,Operaciones")]
         public ActionResult EditarProducto(int id)
         {
 			ProductoDto elProducto = _obtenerProductoPorId.Obtener(id);
@@ -102,6 +108,7 @@ namespace Producto.UI.Controllers
         // POST: Producto/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Operaciones")]
         public ActionResult EditarProducto(ProductoDto elProducto)
         {
             try
@@ -123,6 +130,7 @@ namespace Producto.UI.Controllers
         }
 
         // GET: Producto/Delete/5
+        [Authorize(Roles = "Admin,Operaciones")]
         public ActionResult EliminarProducto(int id)
         {
             ProductoDto elProducto = _obtenerProductoPorId.Obtener(id);
@@ -133,6 +141,7 @@ namespace Producto.UI.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("EliminarProducto")] // Mantiene la ruta POST coherente con el formulario de la vista
+        [Authorize(Roles = "Admin,Operaciones")]
         public ActionResult EliminarProductoConfirmado(int id)
         {
             try

@@ -21,6 +21,7 @@ using System.Web.Mvc;
 
 namespace Pedido.UI.Controllers
 {
+    [Authorize]
     public class PedidoController : Controller
     {
         private IListarClientesLN _listarPedido;
@@ -40,6 +41,8 @@ namespace Pedido.UI.Controllers
             _obtenerProductoPorId = new ObtenerProductoPorIdLN();
 
         }
+        
+        [Authorize (Roles = "Admin,Ventas,Operaciones")]
         public ActionResult ListarPedido()
         {
             List<ClienteDto> laListaDePedidos = _listarPedido.Obtener();
@@ -47,11 +50,13 @@ namespace Pedido.UI.Controllers
             return View(laListaDePedidos);
         }
 
+        [Authorize (Roles = "Admin,Ventas,Operaciones")]
         public ActionResult DetallesPedido()
         {
             return View();
         }
 
+        [Authorize (Roles = "Admin,Ventas")]
         public ActionResult CrearPedido(int Id)
         {
             List<ProductoDto> laListaDeProducto = _listarProducto.Obtener();
@@ -71,6 +76,7 @@ namespace Pedido.UI.Controllers
 
         // POST
         [HttpPost]
+        [Authorize (Roles = "Admin,Ventas")]
         public async Task<ActionResult> CrearPedido(PedidoDto elPedidoCreado)
         {
             try
@@ -84,6 +90,7 @@ namespace Pedido.UI.Controllers
             }
         }
 
+        [Authorize (Roles = "Admin")]
         public ActionResult EditarPedido()
         {
             return View();
