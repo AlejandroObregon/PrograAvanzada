@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Pedidos.Abstracciones.ModelosParaUI.CategoriaDto>
+
+@{
+    ViewBag.Title = "Listado de Categorías";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-3">@ViewBag.Title</h2>
+
+            <div class="mb-4">
+                @Html.ActionLink("Crear Nueva Categoría", "CrearCategoria", null, new { @class = "btn btn-primary" })
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-bordered" id="laTablaDeCategoria">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Id)</th>
+                            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                            <th>@Html.DisplayNameFor(model => model.Activo)</th>
+                            <th class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                                <td>
+                                    @if (item.Activo)
+                                    {
+                                        <span class="badge bg-success">Activo</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">Inactivo</span>
+                                    }
+                                </td>
+                                <td class="text-center text-nowrap">
+                                    @Html.ActionLink("Editar", "EditarCategoria", new { id = item.Id }, new { @class = "btn btn-sm btn-info" })
+                                    @Html.ActionLink("Detalles", "DetallesCategoria", new { id = item.Id }, new { @class = "btn btn-sm btn-secondary" })
+                                    @Html.ActionLink("Eliminar", "EliminarCategoria", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#laTablaDeCategoria').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

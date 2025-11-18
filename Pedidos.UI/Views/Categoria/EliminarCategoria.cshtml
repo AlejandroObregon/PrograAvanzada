@@ -1,0 +1,56 @@
+﻿@model Pedidos.Abstracciones.ModelosParaUI.CategoriaDto
+
+@{
+    ViewBag.Title = "Confirmar Eliminación";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <h2 class="mb-4">@ViewBag.Title</h2>
+
+            <div class="alert alert-danger fade show mb-4" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                <strong>¡ATENCIÓN!</strong> ¿Está seguro que desea <strong>ELIMINAR</strong> esta categoría de forma permanente?
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <h4 class="mb-0">Detalles de la Categoría a Eliminar</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Id)</dt>
+                        <dd class="col-sm-8 border-bottom pb-2">@Html.DisplayFor(model => model.Id)</dd>
+
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Nombre)</dt>
+                        <dd class="col-sm-8 border-bottom pb-2">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Activo)</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.Activo)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactivo</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="d-flex justify-content-start gap-3 mt-4">
+                    <input type="submit" value="Eliminar" class="btn btn-danger btn-lg" />
+                    @Html.ActionLink("Cancelar y Volver", "ListarCategoria", null, new { @class = "btn btn-secondary btn-lg" })
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model Pedidos.Abstracciones.ModelosParaUI.CategoriaDto
+
+@{
+    ViewBag.Title = "Detalles de la Categoría";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <h2 class="mb-4">@ViewBag.Title</h2>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Categoría: @Html.DisplayFor(model => model.Nombre)</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Id)</dt>
+                        <dd class="col-sm-8 border-bottom pb-2">@Html.DisplayFor(model => model.Id)</dd>
+
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Nombre)</dt>
+                        <dd class="col-sm-8 border-bottom pb-2">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                        <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Activo)</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.Activo)
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactivo</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-4 d-flex justify-content-start gap-2">
+                @Html.ActionLink("Editar", "EditarCategoria", new { id = Model.Id }, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Volver a la Lista", "ListarCategoria", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>

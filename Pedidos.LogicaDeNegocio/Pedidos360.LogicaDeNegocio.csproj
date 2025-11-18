@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categoria\ActualizarCategoria\ActualizarCategoriaLN.cs" />
+    <Compile Include="Categoria\CrearCategoria\CrearCategoriaLN.cs" />
+    <Compile Include="Categoria\EliminarCategoria\EliminarCategoriaLN.cs" />
+    <Compile Include="Categoria\ListarCategorias\ListarCategoriasLN.cs" />
+    <Compile Include="Categoria\ObtenerCategoriasActivas\ObtenerCategoriasActivasLN.cs" />
+    <Compile Include="Categoria\ObtenerCategoriaPorId\ObtenerCategoriaPorIdLN.cs" />
     <Compile Include="Cliente\ActualizarCliente\ActualizarClienteLN.cs" />
     <Compile Include="Cliente\CrearCliente\CrearClienteLN.cs" />
     <Compile Include="Cliente\EliminarCliente\EliminarClienteLN.cs" />

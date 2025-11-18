@@ -32,7 +32,7 @@ namespace Pedidos.LogicaDeNegocio.Producto.ListarProducto
 			Id = 1,
 			Nombre = "Producto1",
             CategoriaId = 1,
-            Precio = 200.0f,
+            Precio = 200,
             ImpuestoPorc = 11,
             Stock = 1,
             Activo = true,

@@ -1,88 +1,109 @@
 ﻿@model Pedidos.Abstracciones.ModelosParaUI.ProductoDto
-
 @{
     ViewBag.Title = "Confirmar Eliminación";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-9 col-lg-8">
-
-            <h2 class="mb-4">@ViewBag.Title</h2>
-
-            <div class="alert alert-danger fade show mb-4" role="alert">
-                <i class="bi bi-exclamation-triangle-fill me-2"></i>
-                <strong>¡ATENCIÓN!</strong> ¿Está seguro que desea **ELIMINAR** este registro de Producto de forma permanente?
+<div class="row tm-content-row tm-mt-big">
+    <div class="col-12">
+        <div class="bg-white tm-block">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-block-title text-danger">Confirmar Eliminación</h2>
+                </div>
             </div>
 
-            <div class="card shadow-sm">
-                <div class="card-header bg-secondary text-white">
-                    <h4 class="mb-0">Detalles del Repuesto a Eliminar</h4>
+            <div class="alert alert-danger mt-3" role="alert">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-exclamation-triangle fa-2x me-3"></i>
+                    <div>
+                        <h4 class="alert-heading mb-2">¡Atención!</h4>
+                        <p class="mb-0">¿Está seguro que desea <strong>ELIMINAR</strong> este producto de forma permanente? Esta acción no se puede deshacer.</p>
+                    </div>
                 </div>
-                <div class="card-body">
+            </div>
 
-                    <dl class="row mb-0">
+            <div class="row mt-4">
+                <div class="col-md-4 text-center">
+                    <img src="@Url.Action("ImagenDeProductoPorCodigo", "Producto", new { codigo = Model.Id })"
+                         alt="Imagen del producto"
+                         class="img-fluid border"
+                         style="max-width: 250px; height: auto;" />
+                </div>
 
-                        <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Id)
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.Id)
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Nombre)
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.Nombre)
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.CategoriaId)
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.CategoriaId)
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Stock)
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            @Html.DisplayFor(model => model.Stock)
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            @Html.DisplayNameFor(model => model.Activo)
-                        </dt>
-                        <dd class="col-sm-8">
-                            @if (Model.Activo)
-                            {
-                                <span class="badge bg-success">Activo</span>
-                            }
-                            else
-                            {
-                                <span class="badge bg-danger">Inactivo</span>
-                            }
-                        </dd>
-
-                    </dl>
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold" style="width: 30%; background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Id)</td>
+                                    <td>@Html.DisplayFor(model => model.Id)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Nombre)</td>
+                                    <td>@Html.DisplayFor(model => model.Nombre)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.CategoriaId)</td>
+                                    <td>@Html.DisplayFor(model => model.CategoriaId)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Precio)</td>
+                                    <td>@Html.DisplayFor(model => model.Precio)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Stock)</td>
+                                    <td>@Html.DisplayFor(model => model.Stock) unidades</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Activo)</td>
+                                    <td>
+                                        @if (Model.Activo)
+                                        {
+                                            <span class="badge bg-success">Activo</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Inactivo</span>
+                                        }
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
             @using (Html.BeginForm())
             {
                 @Html.AntiForgeryToken()
-
                 @Html.HiddenFor(model => model.Id)
 
-                <div class="d-flex justify-content-start gap-3 mt-4">
-
-                    <input type="submit" value="Eliminar" class="btn btn-danger btn-lg" />
-
-                    @Html.ActionLink("Cancelar y Volver", "ListarProducto", null, new { @class = "btn btn-secondary btn-lg" })
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            @Html.ActionLink("Cancelar y Volver", "ListarProducto", null, new { @class = "btn btn-secondary" })
+                            <div>
+                                <button type="button" class="btn btn-outline-danger me-2" onclick="history.back()">
+                                    <i class="fas fa-arrow-left me-1"></i>Regresar
+                                </button>
+                                <input type="submit" value="Eliminar Permanentemente" class="btn btn-danger" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             }
 
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="alert alert-warning">
+                        <small>
+                            <i class="fas fa-info-circle me-1"></i>
+                            <strong>Nota:</strong> Al eliminar este producto, se eliminarán todos los registros asociados y no podrá ser recuperado.
+                        </small>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

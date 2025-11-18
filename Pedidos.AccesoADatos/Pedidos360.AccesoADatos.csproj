@@ -52,15 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categoria\ActualizarCategoria\ActualizarCategoriaAD.cs" />
+    <Compile Include="Categoria\CrearCategoria\CrearCategoriaAD.cs" />
+    <Compile Include="Categoria\EliminarCategoria\EliminarCategoriaAD.cs" />
+    <Compile Include="Categoria\ListarCategorias\ListarCategoriasAD.cs" />
+    <Compile Include="Categoria\ObtenerCategoriasActivas\ObtenerCategoriasActivasAD.cs" />
+    <Compile Include="Categoria\ObtenerCategoriaPorId\ObtenerCategoriaPorIdAD.cs" />
     <Compile Include="Cliente\ActualizarCliente\ActualizarClienteAD.cs" />
     <Compile Include="Cliente\CrearCliente\CrearClienteAD.cs" />
     <Compile Include="Cliente\EliminarCliente\EliminarClienteAD.cs" />
     <Compile Include="Cliente\ListarClientes\ListarClientesAD.cs" />
     <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdAD.cs" />
+    <Compile Include="ContextoCategoria.cs" />
     <Compile Include="ContextoCliente.cs" />
     <Compile Include="ContextoPedido.cs" />
     <Compile Include="ContextoPedidoDetalle.cs" />
     <Compile Include="ContextoProducto.cs" />
+    <Compile Include="Modelos\CategoriaAD.cs" />
     <Compile Include="Modelos\ClienteAD.cs" />
     <Compile Include="Modelos\PedidoAD.cs" />
     <Compile Include="Modelos\PedidoDetalleAD.cs" />
@@ -71,8 +79,8 @@
     <Compile Include="Producto\ActualizarProducto\ActualizarProductoAD.cs" />
     <Compile Include="Producto\CrearProducto\CrearProductoAD.cs" />
     <Compile Include="Producto\EliminarProducto\EliminarProductoAD.cs" />
-    <Compile Include="Producto\ListarProductos\ListarInventarioAD.cs" />
-    <Compile Include="Producto\ObtenerProductoPorId\ObtenerInventarioPorIdAD.cs" />
+    <Compile Include="Producto\ListarProductos\ListarProductosAD.cs" />
+    <Compile Include="Producto\ObtenerProductoPorId\ObtenerProductosPorIdAD.cs" />
     <Compile Include="Modelos\ProductoAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

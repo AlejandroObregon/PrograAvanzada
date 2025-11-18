@@ -65,30 +65,39 @@ namespace Producto.UI.Controllers
         {
             try
             {
-				if (elProductoCreado.archivo != null && elProductoCreado.archivo.ContentLength > 0)
-				{
+                if (elProductoCreado.archivo != null && elProductoCreado.archivo.ContentLength > 0)
+                {
                     // Convertir el archivo a un arreglo de bytes
-                    int a = 1;
-					byte[] archivoBytes;
-					using (var memoriaStream = new System.IO.MemoryStream())
-					{
-						elProductoCreado.archivo.InputStream.CopyTo(memoriaStream);
-						archivoBytes = memoriaStream.ToArray();
-					}
+                    byte[] archivoBytes;
+                    using (var memoriaStream = new System.IO.MemoryStream())
+                    {
+                        elProductoCreado.archivo.InputStream.CopyTo(memoriaStream);
+                        archivoBytes = memoriaStream.ToArray();
+                    }
 
-					// Convertir el archivo a base64
-					string base64String = Convert.ToBase64String(archivoBytes);
-                    // Guardar archivo físicamente por código de repuesto
-                    GuardarArchivo(elProductoCreado.archivo, elProductoCreado.Nombre);
+                    // Convertir el archivo a base64
+                    string base64String = Convert.ToBase64String(archivoBytes);
+
+                    string nombreArchivo = $"{elProductoCreado.Nombre}_{DateTime.Now.Ticks}";
+                    GuardarArchivo(elProductoCreado.archivo, nombreArchivo);
+
+                    string extension = Path.GetExtension(elProductoCreado.archivo.FileName);
+                    elProductoCreado.ImagenUrl = nombreArchivo + extension;
+
                     int cantidadDeRegistros = await _crearProducto.Guardar(elProductoCreado);
+                }
+                else
+                {
+                    ModelState.AddModelError("archivo", "La imagen es requerida");
+                    return View(elProductoCreado);
+                }
 
-				}
-
-				return RedirectToAction("ListarProducto");
+                return RedirectToAction("ListarProducto");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                System.Diagnostics.Debug.WriteLine($"Error: {ex.Message}");
+                return View(elProductoCreado);
             }
         }
 
@@ -106,18 +115,20 @@ namespace Producto.UI.Controllers
         {
             try
             {
-                // Si adjuntaron nueva imagen, la guardamos
                 if (elProducto.archivo != null && elProducto.archivo.ContentLength > 0)
                 {
-                    GuardarArchivo(elProducto.archivo, elProducto.ImagenUrl);
+                    string nombreArchivo = $"{elProducto.Nombre}_{DateTime.Now.Ticks}";
+                    GuardarArchivo(elProducto.archivo, nombreArchivo);
+
+                    string extension = Path.GetExtension(elProducto.archivo.FileName);
+                    elProducto.ImagenUrl = nombreArchivo + extension;
                 }
-                // Actualiza el Producto con los datos enviados desde el formulario
+
                 int cantidadAfectada = _actualizarProducto.Actualizar(elProducto);
                 return RedirectToAction("ListarProducto");
             }
             catch
             {
-                // En caso de error, regresa a la vista con el modelo recibido
                 return View(elProducto);
             }
         }

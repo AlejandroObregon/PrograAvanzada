@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos\Categoria\ActualizarCategoria\IActualizarCategoriaAD.cs" />
+    <Compile Include="AccesoADatos\Categoria\CrearCategoria\ICrearCategoriaAD.cs" />
+    <Compile Include="AccesoADatos\Categoria\EliminarCategoria\IEliminarCategoriaAD.cs" />
+    <Compile Include="AccesoADatos\Categoria\ListarCategoria\IListarCategoriasAD.cs" />
+    <Compile Include="AccesoADatos\Categoria\ObtenerCategoriasActivas\IObtenerCategoriasActivasAD.cs" />
+    <Compile Include="AccesoADatos\Categoria\ObtenerCategoriaPorId\IObtenerCategoriaPorIdAD.cs" />
     <Compile Include="AccesoADatos\Cliente\ActualizarCliente\IActualizarClienteAD.cs" />
     <Compile Include="AccesoADatos\Cliente\CrearCliente\ICrearClienteAD.cs" />
     <Compile Include="AccesoADatos\Cliente\EliminarCliente\IEliminarClienteAD.cs" />
@@ -58,6 +64,12 @@
     <Compile Include="AccesoADatos\Producto\EliminarProducto\IEliminarProductoAD.cs" />
     <Compile Include="AccesoADatos\Producto\ListarProductos\IListarProductosAD.cs" />
     <Compile Include="AccesoADatos\Producto\ObtenerProductoPorId\IObtenerProductoPorIdAD.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\ActualizarCategoria\IActualizarCategoriaLN.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\CrearCategoria\ICrearCategoriaLN.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\EliminarCategoria\IEliminarCategoriaLN.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\ListarCategorias\IListarCategoriasLN.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\ObtenerCategoriasActivas\IObtenerCategoriasActivasLN.cs" />
+    <Compile Include="LogicaDeNegocio\Categoria\ObtenerCategoriaPorId\IObtenerCategoriaPorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\Cliente\ActualizarCliente\IActualizarClienteLN.cs" />
     <Compile Include="LogicaDeNegocio\Cliente\CrearCliente\ICrearClienteLN.cs" />
     <Compile Include="LogicaDeNegocio\Cliente\EliminarCliente\IEliminarClienteLN.cs" />
@@ -73,7 +85,9 @@
     <Compile Include="LogicaDeNegocio\Producto\EliminarProducto\IEliminarProductoLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ListarProductos\IListarProductosLN.cs" />
     <Compile Include="LogicaDeNegocio\Producto\ObtenerProductoPorId\IObtenerProductoPorIdLN.cs" />
+    <Compile Include="ModelosParaUI\CategoriaDto.cs" />
     <Compile Include="ModelosParaUI\ClienteDto.cs" />
+    <Compile Include="ModelosParaUI\EstadosDeCategoria.cs" />
     <Compile Include="ModelosParaUI\EstadosDelProducto.cs" />
     <Compile Include="ModelosParaUI\PedidoDto.cs" />
     <Compile Include="ModelosParaUI\ProductoDto.cs" />
