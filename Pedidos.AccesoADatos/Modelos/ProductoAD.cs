@@ -20,9 +20,9 @@ namespace Pedidos.AccesoADatos.Modelos
 		[Column("CategoriaId")]
 		public int CategoriaId { get; set; }
 		[Column("Precio")]
-		public decimal Precio { get; set; }
+		public float Precio { get; set; }
 		[Column("ImpuestoPorc")]
-		public decimal ImpuestoPorc { get; set; }
+		public float ImpuestoPorc { get; set; }
 		[Column("Stock")]
 		public int Stock { get; set; }
 		[Column("ImagenUrl")]

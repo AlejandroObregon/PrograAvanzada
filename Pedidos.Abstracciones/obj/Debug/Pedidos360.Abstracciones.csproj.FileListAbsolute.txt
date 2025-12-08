@@ -28,3 +28,9 @@ E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.Abstr
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.AssemblyReference.cache
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Pedidos360.Abstracciones.csproj.CoreCompileInputs.cache
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb

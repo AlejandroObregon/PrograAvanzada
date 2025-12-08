@@ -56,3 +56,17 @@ E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.Logic
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos3.6D64390B.Up2Date
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.LogicaDeNegocio.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.Abstracciones.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.pdb
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\Inventario.AccesoADatos.dll.config
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos360.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Pedidos3.6D64390B.Up2Date
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.dll
+C:\UCosas\ProgramacionAvanzada\PrograAvanzada\Pedidos.LogicaDeNegocio\obj\Debug\Inventario.LogicaDeNegocio.pdb

@@ -11,10 +11,17 @@ namespace Pedidos.Abstracciones.ModelosParaUI
 {
 	public class ClienteDto
 	{
-		public int Id { get; set; }
-		[Required]
-		public string Nombre { get; set; }
-		public string Cedula { get; set; }
+        public int Id { get; set; }
+        [Display(Name = "Nombre")]
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
+        [MinLength(5, ErrorMessage = "El nombre debe tener al menos 5 caracteres.")]
+        [RegularExpression(@"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$", ErrorMessage = "El nombre solo puede contener letras y espacios.")]
+        public string Nombre { get; set; }
+		
+        [Display(Name = "Cédula")]
+        [Required(ErrorMessage = "La cédula es obligatoria.")]
+        [RegularExpression(@"^\d{9}$", ErrorMessage = "La cédula debe tener exactamente 9 dígitos.")]
+        public string Cedula { get; set; } = string.Empty;
 		public string Correo { get; set; }
 		public string Telefono { get; set; }
 		public string Direccion { get; set; }

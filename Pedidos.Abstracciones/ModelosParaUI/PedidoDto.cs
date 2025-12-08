@@ -13,6 +13,7 @@ namespace Pedidos.Abstracciones.ModelosParaUI
         public int Id { get; set; }
         [Required]
         public int ClienteId { get; set; }
+        [Required]
         public int UsuarioId { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Subtotal { get; set; }

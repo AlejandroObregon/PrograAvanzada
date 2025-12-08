@@ -3,106 +3,114 @@
     ViewBag.Title = "Gestión de Productos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<div class="row tm-content-row tm-mt-big">
-    <div class="col-12">
-        <div class="bg-white tm-block h-100">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <h2 class="tm-block-title d-inline-block">Productos</h2>
+@if (Session["UsuarioId"] != null)
+{
+    var usuarioRol = Session["UsuarioRol"] as string;
+    <div class="row tm-content-row tm-mt-big">
+        <div class="col-12">
+            <div class="bg-white tm-block h-100">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <h2 class="tm-block-title d-inline-block">Productos</h2>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <a href="@Url.Action("CrearProducto", "Producto")" class="btn btn-primary btn-small">Agregar Nuevo Producto</a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-12 text-right">
-                    <a href="@Url.Action("CrearProducto", "Producto")" class="btn btn-primary btn-small">Agregar Nuevo Producto</a>
-                </div>
-            </div>
 
-            @if (TempData["Success"] != null)
-            {
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    @TempData["Success"]
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            }
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["Success"]
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                }
 
-            <div class="table-responsive mt-3">
-                <table class="table table-hover table-striped" id="productosTable">
-                    <thead>
-                        <tr class="tm-bg-gray">
-                            <th class="text-center">Imagen</th>
-                            <th>ID</th>
-                            <th>Nombre</th>
-                            <th class="text-center">Categoría</th>
-                            <th class="text-center">Precio</th>
-                            <th class="text-center">Stock</th>
-                            <th class="text-center">Estado</th>
-                            <th class="text-center">Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td class="text-center">
-                                    <img src="@Url.Content("~/Content/Uploads/" + item.ImagenUrl)"
-                                         alt="@item.Nombre"
-                                         class="img-thumbnail"
-                                         style="width: 60px; height: 60px; object-fit: cover;"
-                                         onerror="this.src='@Url.Content("~/Content/Images/placeholder.svg")'" />
-                                </td>
-                                <td>@item.Id</td>
-                                <td class="tm-product-name">@item.Nombre</td>
-                                <td class="text-center">@item.CategoriaId</td>
-                                <td class="text-center">@item.Precio.ToString("C")</td>
-                                <td class="text-center">
-                                    <span class="badge @(item.Stock > 10 ? "bg-success" : "bg-warning")">
-                                        @item.Stock unidades
-                                    </span>
-                                </td>
-                                <td class="text-center">
-                                    @if (item.Activo)
-                                    {
-                                        <span class="badge bg-success">Activo</span>
-                                    }
-                                    else
-                                    {
-                                        <span class="badge bg-danger">Inactivo</span>
-                                    }
-                                </td>
-                                <td class="text-center text-nowrap">
-                                    <a href="@Url.Action("EditarProducto", new { id = item.Id })" class="btn btn-info btn-sm">
-                                        <i class="fas fa-edit"></i> Editar
-                                    </a>
-                                    <a href="@Url.Action("DetallesProducto", new { id = item.Id })" class="btn btn-secondary btn-sm">
-                                        <i class="fas fa-eye"></i> Ver
-                                    </a>
-                                    <a href="@Url.Action("EliminarProducto", new { id = item.Id })" class="btn btn-danger btn-sm">
-                                        <i class="fas fa-trash"></i> Eliminar
-                                    </a>
-                                </td>
+                <div class="table-responsive mt-3">
+                    <table class="table table-hover table-striped" id="productosTable">
+                        <thead>
+                            <tr class="tm-bg-gray">
+                                <th class="text-center">Imagen</th>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th class="text-center">Categoría</th>
+                                <th class="text-center">Precio</th>
+                                <th class="text-center">Stock</th>
+                                <th class="text-center">Estado</th>
+                                <th class="text-center">Acciones</th>
                             </tr>
-                        }
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="text-center">
+                                        <img src="@Url.Content("~/Content/Uploads/" + item.ImagenUrl)"
+                                             alt="@item.Nombre"
+                                             class="img-thumbnail"
+                                             style="width: 60px; height: 60px; object-fit: cover;"
+                                             onerror="this.src='@Url.Content("~/Content/Images/placeholder.svg")'" />
+                                    </td>
+                                    <td>@item.Id</td>
+                                    <td class="tm-product-name">@item.Nombre</td>
+                                    <td class="text-center">@item.CategoriaId</td>
+                                    <td class="text-center">@item.Precio.ToString("C")</td>
+                                    <td class="text-center">
+                                        <span class="badge @(item.Stock > 10 ? "bg-success" : "bg-warning")">
+                                            @item.Stock unidades
+                                        </span>
+                                    </td>
+                                    <td class="text-center">
+                                        @if (item.Activo)
+                                        {
+                                            <span class="badge bg-success">Activo</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Inactivo</span>
+                                        }
+                                    </td>
+                                    <td class="text-center text-nowrap">
+                                        <a href="@Url.Action("EditarProducto", new { id = item.Id })" class="btn btn-info btn-sm">
+                                            <i class="fas fa-edit"></i> Editar
+                                        </a>
+                                        <a href="@Url.Action("DetallesProducto", new { id = item.Id })" class="btn btn-secondary btn-sm">
+                                            <i class="fas fa-eye"></i> Ver
+                                        </a>
+
+                                        @if (usuarioRol == "Administrador")
+                                        {
+                                            <a href="@Url.Action("EliminarProducto", new { id = item.Id })" class="btn btn-danger btn-sm">
+                                                <i class="fas fa-trash"></i> Eliminar
+                                            </a>
+                                        }
+                                        
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
+        
     </div>
-</div>
-
-@section Scripts {
-    <script>
-        $(document).ready(function () {
-            $('#productosTable').DataTable({
-                "language": {
-                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
-                },
-                "pageLength": 10,
-                "responsive": true,
-                "columnDefs": [
-                    { "orderable": false, "targets": [0, 7] } // Hace que Imagen y Acciones no sean ordenables
-                ]
-            });
-        });
-    </script>
 }
+    @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $('#productosTable').DataTable({
+                    "language": {
+                        "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+                    },
+                    "pageLength": 10,
+                    "responsive": true,
+                    "columnDefs": [
+                        { "orderable": false, "targets": [0, 7] } // Hace que Imagen y Acciones no sean ordenables
+                    ]
+                });
+            });
+        </script>
+    }

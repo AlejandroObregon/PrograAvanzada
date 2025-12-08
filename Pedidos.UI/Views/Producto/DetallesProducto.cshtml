@@ -17,10 +17,12 @@
                 <div class="col-md-4">
                     <div class="text-center">
                         <label class="form-label d-block fw-bold mb-3">Imagen del Producto</label>
-                        <img src="@Url.Action("ImagenDeProductoPorCodigo", "Producto", new { codigo = Model.Id })"
+                        <img id="previewImg"
+                             src="@Url.Content("~/Content/Uploads/" + Model.ImagenUrl)"
                              alt="Imagen del repuesto"
                              class="img-fluid border"
-                             style="max-width: 300px; height: auto;" />
+                             style="max-width: 100%; height: auto;"
+                             onerror="this.src='@Url.Content("~/Content/Images/placeholder.svg")'" />
                     </div>
                 </div>
 

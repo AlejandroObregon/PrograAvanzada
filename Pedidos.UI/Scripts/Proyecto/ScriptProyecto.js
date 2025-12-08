@@ -28,7 +28,7 @@
     }
 
     $(function () {
-        var $forms = $("#formBeca, #formDemo");
+        var $forms = $("#formClientes, #formDemo");
 
         $forms.each(function () {
             var $form = $(this);

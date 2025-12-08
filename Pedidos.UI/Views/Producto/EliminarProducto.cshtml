@@ -25,10 +25,13 @@
 
             <div class="row mt-4">
                 <div class="col-md-4 text-center">
-                    <img src="@Url.Action("ImagenDeProductoPorCodigo", "Producto", new { codigo = Model.Id })"
-                         alt="Imagen del producto"
+                    <img id="previewImg"
+                         src="@Url.Content("~/Content/Uploads/" + Model.ImagenUrl)"
+                         alt="Imagen del repuesto"
                          class="img-fluid border"
-                         style="max-width: 250px; height: auto;" />
+                         style="max-width: 100%; height: auto;"
+                         onerror="this.src='@Url.Content("~/Content/Images/placeholder.svg")'" />
+
                 </div>
 
                 <div class="col-md-8">

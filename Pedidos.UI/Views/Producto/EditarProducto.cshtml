@@ -80,10 +80,11 @@
                         <div class="mb-4">
                             <label class="form-label d-block fw-bold">Imagen Actual</label>
                             <img id="previewImg"
-                                 src="@Url.Action("ImagenDeProductoPorCodigo", "Producto", new { codigo = Model.Id })"
+                                 src="@Url.Content("~/Content/Uploads/" + Model.ImagenUrl)"
                                  alt="Imagen del repuesto"
                                  class="img-fluid border"
-                                 style="max-width: 100%; height: auto;" />
+                                 style="max-width: 100%; height: auto;"
+                                 onerror="this.src='@Url.Content("~/Content/Images/placeholder.svg")'" />
                         </div>
 
                         <div class="mb-3">

@@ -71,8 +71,8 @@ namespace Pedidos.UI.Controllers
                 // Crear roles si no existen
                 if (!await roleManager.RoleExistsAsync("Administrador"))
                     await roleManager.CreateAsync(new IdentityRole("Administrador"));
-                if (!await roleManager.RoleExistsAsync("Cliente"))
-                    await roleManager.CreateAsync(new IdentityRole("Cliente"));
+                if (!await roleManager.RoleExistsAsync("Ventas"))
+                    await roleManager.CreateAsync(new IdentityRole("Ventas"));
 
                 // Crear usuario
                 var user = new ApplicationUser
