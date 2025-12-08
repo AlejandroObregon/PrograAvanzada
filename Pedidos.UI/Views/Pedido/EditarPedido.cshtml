@@ -1,0 +1,222 @@
+﻿@model Pedidos.Abstracciones.ModelosParaUI.PedidoDto
+@{
+    ViewBag.Title = "Editar Pedido";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row tm-content-row tm-mt-big">
+    <div class="col-12">
+        <div class="bg-white tm-block">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-block-title">Editar Pedido #@Model.Id</h2>
+                </div>
+            </div>
+
+            @using (Html.BeginForm("EditarPedido", "Pedido", FormMethod.Post, new { id = "editarPedidoForm" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.Id)
+                @Html.HiddenFor(model => model.ClienteId)
+                @Html.HiddenFor(model => model.Fecha)
+
+                <div class="row mt-4">
+                    <!-- Información del Pedido -->
+                    <div class="col-md-4">
+                        <div class="bg-light p-4 border rounded">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-info-circle me-2"></i>Información del Pedido</h5>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Número de Pedido:</label>
+                                <input type="text" class="form-control bg-light" value="#@Model.Id" disabled />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Cliente:</label>
+                                <input type="text" class="form-control bg-light" value="@ViewBag.NombreCliente" disabled />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Fecha de Creación:</label>
+                                <input type="text" class="form-control bg-light" value="@Model.Fecha.ToString("dd/MM/yyyy HH:mm")" disabled />
+                            </div>
+                        </div>
+
+                        <!-- Estado del Pedido -->
+                        <div class="bg-light p-4 border rounded mt-4">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-tasks me-2"></i>Estado del Pedido</h5>
+                            <div class="mb-3">
+                                @Html.LabelFor(model => model.Estado, new { @class = "form-label fw-bold" })
+                                @Html.DropDownListFor(model => model.Estado,
+                                    new SelectList(new[]
+                                    {
+                                        new SelectListItem { Text = "Pendiente", Value = "Pendiente" },
+                                        new SelectListItem { Text = "Completado", Value = "Completado" },
+                                        new SelectListItem { Text = "Cancelado", Value = "Cancelado" }
+                                    }, "Value", "Text"),
+                                    new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Estado, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Detalles Editables -->
+                    <div class="col-md-8">
+                        @Html.ValidationSummary(true, "Por favor, corrige los siguientes errores:", new { @class = "alert alert-danger" })
+
+                        <!-- Montos del Pedido -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    @Html.LabelFor(model => model.Subtotal, new { @class = "form-label fw-bold" })
+                                    @Html.TextBoxFor(model => model.Subtotal, new { @class = "form-control", type = "number", step = "0.01", min = "0" })
+                                    @Html.ValidationMessageFor(model => model.Subtotal, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    @Html.LabelFor(model => model.Impuestos, new { @class = "form-label fw-bold" })
+                                    @Html.TextBoxFor(model => model.Impuestos, new { @class = "form-control", type = "number", step = "0.01", min = "0" })
+                                    @Html.ValidationMessageFor(model => model.Impuestos, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    @Html.LabelFor(model => model.Total, new { @class = "form-label fw-bold" })
+                                    @Html.TextBoxFor(model => model.Total, new { @class = "form-control", type = "number", step = "0.01", min = "0" })
+                                    @Html.ValidationMessageFor(model => model.Total, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Información de Productos (Solo lectura para edición) -->
+                        <div class="bg-light p-4 border rounded mb-3">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-box me-2"></i>Información del Producto</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold">Producto ID:</label>
+                                    <input type="text" class="form-control bg-light" value="@Model.ProductoId" disabled />
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold">Cantidad:</label>
+                                    <input type="text" class="form-control bg-light" value="@Model.Cantidad" disabled />
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold">Descuento Aplicado:</label>
+                                    <input type="text" class="form-control bg-light" value="@(Model.Descuento?.ToString("N2") + "%")" disabled />
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <small class="text-muted">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    Los detalles del producto no pueden ser modificados. Para cambiar productos, cree un nuevo pedido.
+                                </small>
+                            </div>
+                        </div>
+
+                        <!-- Notas Adicionales -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Notas Adicionales</label>
+                            @Html.TextAreaFor(model => model.Notas, new { @class = "form-control", rows = "3", placeholder = "Agregue cualquier nota o observación sobre este pedido..." })
+                            @Html.ValidationMessageFor(model => model.Notas, "", new { @class = "text-danger" })
+                        </div>
+
+                        <!-- Resumen de Cambios -->
+                        <div class="alert alert-warning">
+                            <h6 class="fw-bold"><i class="fas fa-exclamation-triangle me-2"></i>Precaución</h6>
+                            <p class="mb-0 small">
+                                La modificación de montos puede afectar los reportes financieros.
+                                Asegúrese de que los cambios reflejen correcciones reales y necesarias.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between">
+                            @Html.ActionLink("Cancelar", "DetallesPedido", new { id = Model.Id }, new { @class = "btn btn-secondary" })
+                            <div>
+                                <button type="button" class="btn btn-outline-danger me-2" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                                    <i class="fas fa-times me-1"></i>Cancelar Pedido
+                                </button>
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-save me-1"></i>Guardar Cambios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Confirmación para Cancelar Pedido -->
+<div class="modal fade" id="confirmModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger">Confirmar Cancelación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>¿Está seguro que desea cancelar este pedido? Esta acción cambiará el estado a "Cancelado" y no podrá ser revertida automáticamente.</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="confirmCancel">
+                    <label class="form-check-label" for="confirmCancel">
+                        Confirmo que deseo cancelar el pedido #@Model.Id
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-danger" id="confirmCancelBtn" disabled>
+                    <i class="fas fa-ban me-1"></i>Cancelar Pedido
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            // Validación para el modal de cancelación
+            $('#confirmCancel').change(function () {
+                $('#confirmCancelBtn').prop('disabled', !this.checked);
+            });
+
+            $('#confirmCancelBtn').click(function () {
+                $('#Estado').val('Cancelado');
+                $('#editarPedidoForm').submit();
+            });
+
+            // Validación de montos
+            $('#editarPedidoForm').submit(function (e) {
+                var subtotal = parseFloat($('#Subtotal').val()) || 0;
+                var impuestos = parseFloat($('#Impuestos').val()) || 0;
+                var total = parseFloat($('#Total').val()) || 0;
+
+                if (subtotal < 0 || impuestos < 0 || total < 0) {
+                    e.preventDefault();
+                    alert('Los montos no pueden ser negativos');
+                    return false;
+                }
+
+                var totalCalculado = subtotal + impuestos;
+                if (Math.abs(total - totalCalculado) > 0.01) {
+                    if (!confirm('El total no coincide con la suma de subtotal + impuestos. ¿Desea continuar?')) {
+                        e.preventDefault();
+                        return false;
+                    }
+                }
+            });
+
+            // Cálculo automático del total
+            $('#Subtotal, #Impuestos').on('input', function () {
+                var subtotal = parseFloat($('#Subtotal').val()) || 0;
+                var impuestos = parseFloat($('#Impuestos').val()) || 0;
+                $('#Total').val((subtotal + impuestos).toFixed(2));
+            });
+        });
+    </script>
+}

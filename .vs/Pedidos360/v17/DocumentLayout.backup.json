@@ -3,11 +3,47 @@
   "WorkspaceRootPath": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.accesoadatos\\categoria\\crearcategoria\\crearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\cliente\\crearcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\cliente\\crearcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\modelosparaui\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.accesoadatos\\categoria\\crearcategoria\\crearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\categoria\\crearcategoria\\crearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\modelosparaui\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\modelosparaui\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,23 +51,23 @@
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\categoria\\actualizarcategoria\\actualizarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.accesoadatos\\modelos\\categoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.accesoadatos\\modelos\\categoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\modelos\\categoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.accesoadatos\\contextocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.accesoadatos\\contextocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\contextocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.accesoadatos\\producto\\actualizarproducto\\actualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.accesoadatos\\producto\\actualizarproducto\\actualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\producto\\actualizarproducto\\actualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\modelosparaui\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\modelosparaui\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.accesoadatos\\modelos\\productoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.accesoadatos\\modelos\\productoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4EB73A-4057-456A-835A-8660072B2FD1}|Pedidos.AccesoADatos\\Pedidos360.AccesoADatos.csproj|solutionrelative:pedidos.accesoadatos\\modelos\\productoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,35 +83,31 @@
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\logicadenegocio\\cliente\\actualizarcliente\\iactualizarclienteln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\obtenercategoriaporid\\iobtenercategoriaporidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\obtenercategoriaporid\\iobtenercategoriaporidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\categoria\\obtenercategoriaporid\\iobtenercategoriaporidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\listarcategoria\\ilistarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\categoria\\listarcategoria\\ilistarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\eliminarcategoria\\ieliminarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\eliminarcategoria\\ieliminarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\categoria\\eliminarcategoria\\ieliminarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\crearcategoria\\icrearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\crearcategoria\\icrearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\categoria\\crearcategoria\\icrearcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\actualizarcategoria\\iactualizarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\categoria\\actualizarcategoria\\iactualizarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\categoria\\actualizarcategoria\\iactualizarcategoriaad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\producto\\listarproductos\\ilistarproductosad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\producto\\listarproductos\\ilistarproductosad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\producto\\listarproductos\\ilistarproductosad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\accesoadatos\\producto\\actualizarproducto\\iactualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\accesoadatos\\producto\\actualizarproducto\\iactualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\accesoadatos\\producto\\actualizarproducto\\iactualizarproductoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.abstracciones\\modelosparaui\\estadosdelproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\modelosparaui\\estadosdelproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\modelosparaui\\estadosdelproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,32 +115,24 @@
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\categoria\\listarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.ui\\views\\categoria\\listarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\categoria\\listarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\categoria\\crearcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.ui\\views\\categoria\\crearcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\categoria\\crearcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\categoria\\detallescategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.ui\\views\\categoria\\detallescategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\categoria\\detallescategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\categoria\\editarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.ui\\views\\categoria\\editarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\categoria\\editarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.ui\\views\\categoria\\eliminarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.ui\\views\\categoria\\eliminarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF07EBA6-2C1D-4B78-ACE9-7AB399EBDE01}|Pedidos.UI\\Pedidos360.UI.csproj|solutionrelative:pedidos.ui\\views\\categoria\\eliminarcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|e:\\u\\9 cuatri\\programacion avanzada\\proyecto actual\\prograavanzada\\pedidos.logicadenegocio\\categoria\\obtenerclienteporid\\obtenercategoriaporidln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|solutionrelative:pedidos.logicadenegocio\\categoria\\obtenerclienteporid\\obtenercategoriaporidln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.logicadenegocio\\categoria\\listarcliente\\listarcategoriasln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|solutionrelative:pedidos.logicadenegocio\\categoria\\listarcliente\\listarcategoriasln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08747796-059B-444D-8334-3E2F48882EB5}|Pedidos.LogicaDeNegocio\\Pedidos360.LogicaDeNegocio.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.logicadenegocio\\categoria\\eliminarcategoria\\eliminarcategorialn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -229,6 +253,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\pedidos.abstracciones\\logicadenegocio\\categoria\\eliminarcategoria\\ieliminarcategorialn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B23C87B-4251-42B9-A33B-1F7C3B037B02}|Pedidos.Abstracciones\\Pedidos360.Abstracciones.csproj|solutionrelative:pedidos.abstracciones\\logicadenegocio\\categoria\\eliminarcategoria\\ieliminarcategorialn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -238,11 +274,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CrearCliente.cshtml",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\CrearCliente.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Cliente\\CrearCliente.cshtml",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Cliente\\CrearCliente.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Cliente\\CrearCliente.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T02:00:48.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.css",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Content\\Site.css",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Content\\Site.css",
+              "RelativeToolTip": "Pedidos.UI\\Content\\Site.css",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAwwLcBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T01:32:10.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "Pedidos.UI\\models\\IdentityModels.cs",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\models\\IdentityModels.cs",
+              "RelativeToolTip": "Pedidos.UI\\models\\IdentityModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:44:51.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T01:31:34.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE0AAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T01:31:21.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\LoginDto.cs",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\LoginDto.cs",
+              "RelativeToolTip": "Pedidos.Abstracciones\\ModelosParaUI\\LoginDto.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA4wDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:22:32.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Pedidos.UI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:21:53.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Web.config",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Web.config",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Web.config",
+              "RelativeToolTip": "Pedidos.UI\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-08T01:04:16.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pedidos.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAANEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T01:01:50.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ContextoCategoria.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\ContextoCategoria.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\ContextoCategoria.cs",
@@ -255,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "ProductoDto.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\ProductoDto.cs",
@@ -268,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CategoriaDto.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\CategoriaDto.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\CategoriaDto.cs",
@@ -281,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "ProductoAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Modelos\\ProductoAD.cs",
@@ -294,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "CategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Modelos\\CategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Modelos\\CategoriaAD.cs",
@@ -307,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ActualizarProductoAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Producto\\ActualizarProducto\\ActualizarProductoAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Producto\\ActualizarProducto\\ActualizarProductoAD.cs",
@@ -320,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "IObtenerCategoriaPorIdAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ObtenerCategoriaPorId\\IObtenerCategoriaPorIdAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ObtenerCategoriaPorId\\IObtenerCategoriaPorIdAD.cs",
@@ -333,20 +486,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 63,
               "Title": "IListarCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs",
               "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs",
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ListarCategoria\\IListarCategoriaAD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:36:12.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T22:36:12.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "IEliminarCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\EliminarCategoria\\IEliminarCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\EliminarCategoria\\IEliminarCategoriaAD.cs",
@@ -359,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "IActualizarClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ActualizarCliente\\IActualizarClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ActualizarCliente\\IActualizarClienteLN.cs",
@@ -372,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "IActualizarCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ActualizarCategoria\\IActualizarCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ActualizarCategoria\\IActualizarCategoriaLN.cs",
@@ -385,12 +536,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ActualizarCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs",
-              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs*",
-              "RelativeToolTip": "Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs*",
+              "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs",
+              "RelativeToolTip": "Pedidos.AccesoADatos\\Categoria\\ActualizarCategoria\\ActualizarCategoriaAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T21:57:23.319Z",
@@ -398,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "CrearCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\CrearCategoria\\CrearCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Categoria\\CrearCategoria\\CrearCategoriaAD.cs",
@@ -411,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ICrearCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\CrearCategoria\\ICrearCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\CrearCategoria\\ICrearCategoriaAD.cs",
@@ -424,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IActualizarCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ActualizarCategoria\\IActualizarCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Categoria\\ActualizarCategoria\\IActualizarCategoriaAD.cs",
@@ -437,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "IListarProductosAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Producto\\ListarProductos\\IListarProductosAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Producto\\ListarProductos\\IListarProductosAD.cs",
@@ -450,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "IActualizarProductoAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Producto\\ActualizarProducto\\IActualizarProductoAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Producto\\ActualizarProducto\\IActualizarProductoAD.cs",
@@ -463,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "ICrearCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\CrearCategoria\\ICrearCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\CrearCategoria\\ICrearCategoriaLN.cs",
@@ -476,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "EstadosDelProducto.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\ModelosParaUI\\EstadosDelProducto.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\ModelosParaUI\\EstadosDelProducto.cs",
@@ -489,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "ListarCategoria.cshtml",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Categoria\\ListarCategoria.cshtml",
               "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Categoria\\ListarCategoria.cshtml",
@@ -502,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "CrearCategoria.cshtml",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Categoria\\CrearCategoria.cshtml",
               "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Categoria\\CrearCategoria.cshtml",
@@ -515,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "DetallesCategoria.cshtml",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Categoria\\DetallesCategoria.cshtml",
               "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Categoria\\DetallesCategoria.cshtml",
@@ -528,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "EditarCategoria.cshtml",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Categoria\\EditarCategoria.cshtml",
               "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Categoria\\EditarCategoria.cshtml",
@@ -541,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "EliminarCategoria.cshtml",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Views\\Categoria\\EliminarCategoria.cshtml",
               "RelativeDocumentMoniker": "Pedidos.UI\\Views\\Categoria\\EliminarCategoria.cshtml",
@@ -554,32 +705,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 64,
               "Title": "ObtenerCategoriaPorIdLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs",
               "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs",
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Categoria\\ObtenerClientePorId\\ObtenerCategoriaPorIdLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:14:53.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T22:14:53.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 65,
               "Title": "ListarCategoriasLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs",
               "ToolTip": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs",
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Categoria\\ListarCliente\\ListarCategoriasLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T22:16:32.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "EliminarCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\EliminarCategoria\\EliminarCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Categoria\\EliminarCategoria\\EliminarCategoriaLN.cs",
@@ -587,11 +735,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Categoria\\EliminarCategoria\\EliminarCategoriaLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:16:27.978Z"
+              "WhenOpened": "2025-11-17T22:16:27.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "CrearCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\CrearCategoria\\CrearCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Categoria\\CrearCategoria\\CrearCategoriaLN.cs",
@@ -599,11 +748,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Categoria\\CrearCategoria\\CrearCategoriaLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:16:21.316Z"
+              "WhenOpened": "2025-11-17T22:16:21.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "ActualizarCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Categoria\\ActualizarCategoria\\ActualizarCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Categoria\\ActualizarCategoria\\ActualizarCategoriaLN.cs",
@@ -611,11 +761,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Categoria\\ActualizarCategoria\\ActualizarCategoriaLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:15:33.43Z"
+              "WhenOpened": "2025-11-17T22:15:33.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\CategoriaController.cs",
@@ -628,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\PedidoController.cs",
@@ -636,11 +787,12 @@
               "RelativeToolTip": "Pedidos.UI\\Controllers\\PedidoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:11:00.641Z"
+              "WhenOpened": "2025-11-17T22:11:00.641Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "ObtenerClientePorIdLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdLN.cs",
@@ -648,11 +800,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:10:45.014Z"
+              "WhenOpened": "2025-11-17T22:10:45.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "ListarClientesLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\ListarCliente\\ListarClientesLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\ListarCliente\\ListarClientesLN.cs",
@@ -660,11 +813,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\ListarCliente\\ListarClientesLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:10:40.633Z"
+              "WhenOpened": "2025-11-17T22:10:40.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "EliminarClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\EliminarCliente\\EliminarClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\EliminarCliente\\EliminarClienteLN.cs",
@@ -672,11 +826,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\EliminarCliente\\EliminarClienteLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:10:32.89Z"
+              "WhenOpened": "2025-11-17T22:10:32.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "CrearClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
@@ -684,11 +839,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\CrearCliente\\CrearClienteLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:10:27.622Z"
+              "WhenOpened": "2025-11-17T22:10:27.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.UI\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Pedidos.UI\\Controllers\\ClienteController.cs",
@@ -696,11 +852,12 @@
               "RelativeToolTip": "Pedidos.UI\\Controllers\\ClienteController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowGAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:09:53.071Z"
+              "WhenOpened": "2025-11-17T22:09:53.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "IObtenerClientePorIdLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdLN.cs",
@@ -708,11 +865,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:05:24.85Z"
+              "WhenOpened": "2025-11-17T22:05:24.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "IListarClientesLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ListarClientes\\IListarClientesLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ListarClientes\\IListarClientesLN.cs",
@@ -720,11 +878,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\ListarClientes\\IListarClientesLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:05:20.184Z"
+              "WhenOpened": "2025-11-17T22:05:20.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "IEliminarClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\EliminarCliente\\IEliminarClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\EliminarCliente\\IEliminarClienteLN.cs",
@@ -732,11 +891,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\EliminarCliente\\IEliminarClienteLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:05:12.483Z"
+              "WhenOpened": "2025-11-17T22:05:12.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "ActualizarClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.LogicaDeNegocio\\Cliente\\ActualizarCliente\\ActualizarClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.LogicaDeNegocio\\Cliente\\ActualizarCliente\\ActualizarClienteLN.cs",
@@ -744,11 +904,12 @@
               "RelativeToolTip": "Pedidos.LogicaDeNegocio\\Cliente\\ActualizarCliente\\ActualizarClienteLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:00:01.419Z"
+              "WhenOpened": "2025-11-17T22:00:01.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "ICrearClienteLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\CrearCliente\\ICrearClienteLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\CrearCliente\\ICrearClienteLN.cs",
@@ -756,11 +917,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Cliente\\CrearCliente\\ICrearClienteLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:05:07.413Z"
+              "WhenOpened": "2025-11-17T22:05:07.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "IListarClientesAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ListarCliente\\IListarClientesAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ListarCliente\\IListarClientesAD.cs",
@@ -768,11 +930,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ListarCliente\\IListarClientesAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:03:00.788Z"
+              "WhenOpened": "2025-11-17T22:03:00.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "IObtenerClientePorIdAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdAD.cs",
@@ -780,11 +943,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ObtenerClientePorId\\IObtenerClientePorIdAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:03:07.908Z"
+              "WhenOpened": "2025-11-17T22:03:07.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "IEliminarClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Cliente\\EliminarCliente\\IEliminarClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\EliminarCliente\\IEliminarClienteAD.cs",
@@ -792,11 +956,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\EliminarCliente\\IEliminarClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:02:52.461Z"
+              "WhenOpened": "2025-11-17T22:02:52.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "ICrearClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Cliente\\CrearCliente\\ICrearClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\CrearCliente\\ICrearClienteAD.cs",
@@ -804,11 +969,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\CrearCliente\\ICrearClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:02:44.803Z"
+              "WhenOpened": "2025-11-17T22:02:44.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "IActualizarClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ActualizarCliente\\IActualizarClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ActualizarCliente\\IActualizarClienteAD.cs",
@@ -816,11 +982,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\AccesoADatos\\Cliente\\ActualizarCliente\\IActualizarClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:02:37.174Z"
+              "WhenOpened": "2025-11-17T22:02:37.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "ListarClientesAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\ListarClientes\\ListarClientesAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\ListarClientes\\ListarClientesAD.cs",
@@ -828,11 +995,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\ListarClientes\\ListarClientesAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:01:38.693Z"
+              "WhenOpened": "2025-11-17T22:01:38.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "ObtenerClientePorIdAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
@@ -840,11 +1008,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\ObtenerClientePorId\\ObtenerClientePorIdAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:01:46.862Z"
+              "WhenOpened": "2025-11-17T22:01:46.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "EliminarClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\EliminarCliente\\EliminarClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\EliminarCliente\\EliminarClienteAD.cs",
@@ -852,11 +1021,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\EliminarCliente\\EliminarClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:01:28.65Z"
+              "WhenOpened": "2025-11-17T22:01:28.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "CrearClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\CrearCliente\\CrearClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\CrearCliente\\CrearClienteAD.cs",
@@ -864,11 +1034,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\CrearCliente\\CrearClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:01:23.953Z"
+              "WhenOpened": "2025-11-17T22:01:23.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "ActualizarClienteAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Cliente\\ActualizarCliente\\ActualizarClienteAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Cliente\\ActualizarCliente\\ActualizarClienteAD.cs",
@@ -876,11 +1047,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Cliente\\ActualizarCliente\\ActualizarClienteAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:00:42.761Z"
+              "WhenOpened": "2025-11-17T22:00:42.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "ObtenerCategoriaPorIdAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\ObtenerCategoriaPorId\\ObtenerCategoriaPorIdAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Categoria\\ObtenerCategoriaPorId\\ObtenerCategoriaPorIdAD.cs",
@@ -888,11 +1060,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Categoria\\ObtenerCategoriaPorId\\ObtenerCategoriaPorIdAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:58:17.878Z"
+              "WhenOpened": "2025-11-17T21:58:17.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "ListarCategoriasAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\ListarCategorias\\ListarCategoriasAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Categoria\\ListarCategorias\\ListarCategoriasAD.cs",
@@ -900,11 +1073,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Categoria\\ListarCategorias\\ListarCategoriasAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:58:06.813Z"
+              "WhenOpened": "2025-11-17T21:58:06.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "EliminarCategoriaAD.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.AccesoADatos\\Categoria\\EliminarCategoria\\EliminarCategoriaAD.cs",
               "RelativeDocumentMoniker": "Pedidos.AccesoADatos\\Categoria\\EliminarCategoria\\EliminarCategoriaAD.cs",
@@ -912,11 +1086,12 @@
               "RelativeToolTip": "Pedidos.AccesoADatos\\Categoria\\EliminarCategoria\\EliminarCategoriaAD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:57:56.797Z"
+              "WhenOpened": "2025-11-17T21:57:56.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "IObtenerCategoriaPorIdLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ObtenerCategoriaPorId\\IObtenerCategoriaPorIdLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ObtenerCategoriaPorId\\IObtenerCategoriaPorIdLN.cs",
@@ -924,11 +1099,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ObtenerCategoriaPorId\\IObtenerCategoriaPorIdLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:55:47.788Z"
+              "WhenOpened": "2025-11-17T21:55:47.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "IListarCategoriasLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ListarCategorias\\IListarCategoriasLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ListarCategorias\\IListarCategoriasLN.cs",
@@ -936,11 +1112,12 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\ListarCategorias\\IListarCategoriasLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:55:43.215Z"
+              "WhenOpened": "2025-11-17T21:55:43.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "IEliminarCategoriaLN.cs",
               "DocumentMoniker": "E:\\U\\9 Cuatri\\Programacion Avanzada\\Proyecto Actual\\PrograAvanzada\\Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\EliminarCategoria\\IEliminarCategoriaLN.cs",
               "RelativeDocumentMoniker": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\EliminarCategoria\\IEliminarCategoriaLN.cs",
@@ -948,7 +1125,8 @@
               "RelativeToolTip": "Pedidos.Abstracciones\\LogicaDeNegocio\\Categoria\\EliminarCategoria\\IEliminarCategoriaLN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:55:38.405Z"
+              "WhenOpened": "2025-11-17T21:55:38.405Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -388,3 +388,8 @@ E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\ob
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\obj\Debug\Pedidos3.829AFA9F.Up2Date
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\obj\Debug\Inventario.UI.dll
 E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\obj\Debug\Inventario.UI.pdb
+E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\bin\Inventario.LogicaDeNegocio.dll.config
+E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\U\9 Cuatri\Programacion Avanzada\Proyecto Actual\PrograAvanzada\Pedidos.UI\bin\Microsoft.AspNet.Identity.EntityFramework.xml

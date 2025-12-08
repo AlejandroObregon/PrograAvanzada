@@ -89,6 +89,7 @@
     <Compile Include="ModelosParaUI\ClienteDto.cs" />
     <Compile Include="ModelosParaUI\EstadosDeCategoria.cs" />
     <Compile Include="ModelosParaUI\EstadosDelProducto.cs" />
+    <Compile Include="ModelosParaUI\LoginDto.cs" />
     <Compile Include="ModelosParaUI\PedidoDto.cs" />
     <Compile Include="ModelosParaUI\ProductoDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
