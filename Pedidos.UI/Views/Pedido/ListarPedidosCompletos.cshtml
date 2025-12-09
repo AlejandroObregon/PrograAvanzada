@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Pedidos.Abstracciones.ModelosParaUI.PedidoDto>
+@{
+    ViewBag.Title = "Lista de Pedidos";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+
+            <h2 class="mb-3">@ViewBag.Title</h2>
+
+            <div class="mb-4">
+                @using (Html.BeginForm("DetallesPedido", "Pedido", FormMethod.Get, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.TextBox("id")
+                    <button type="submit" class="btn btn-success"> Buscar </button>
+                }
+                <br />
+            </div>
+
+            <div class="table-responsive">
+
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered" id="tablaServicios2">
+                        <thead class="">
+                            <tr>
+                                <th>ID</th>
+                                <th>ClienteID</th>
+                                <th>Fecha</th>
+                                <th>Subtotal</th>
+                                <th>Impuestos</th>
+                                <th>Total</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                if (item.Estado == "Pendiente")
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.ClienteId)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                                        <td>₡@Html.DisplayFor(modelItem => item.Subtotal)</td>
+                                        <td>₡@Html.DisplayFor(modelItem => item.Impuestos)</td>
+                                        <td>₡@Html.DisplayFor(modelItem => item.Total)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Estado)</td>
+
+                                    </tr>
+                                }
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+            $(document).ready(function () {
+                $('#tablaServicios2').DataTable({
+                    "language": {
+                        "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+                    }
+                });
+            });
+    </script>
+}

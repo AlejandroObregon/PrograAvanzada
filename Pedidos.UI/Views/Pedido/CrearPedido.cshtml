@@ -211,32 +211,52 @@
 
         });        
 
+        // Funcion GET_Producto (Desde cantidad + Validacion Stock)
         $("input[id='cantidadProducto']").keyup(function () {
-            if ($("input[id=precioProducto]").val() != null) {
-                var precio = $("#precioProducto").val();
-                var impuesto = $("#preImpuesto").val();
-                var cantidad = $("#cantidadProducto").val();
-                var subTotal = precio * cantidad;
-                var impuestos = (subTotal * impuesto) / 100;
-                var total = subTotal + impuestos;
-                if ($("#descuentoProducto").val != 0 && $("#descuentoProducto").val != null) {
-                    var descuento = $("#descuentoProducto").val();
-                    descuento = (total * descuento) / 100;
-                    total = total - descuento;
-                    $("#descuentoProducto2").val(descuento);
+            var detalles = new Object();
+            var id = $("#idProducto").val();
 
-                }
-                $("#subtotalProducto").val(subTotal);
-                $("#impuestosProducto").val(impuestos);
-                $("#totalProducto").val(total);
-                $("#subtotalProducto2").val(subTotal);
-                $("#impuestosProducto2").val(impuestos);
-                $("#totalProducto2").val(total);
+            $.ajax({
+                type: "GET",
+                url: "../../pedido/DetallesProducto/" + id,
+                dataType: "json",
+                success: function (data) {
+                    detalles = data;
+                    $("input[id=precioProducto]").val(detalles.Precio);
+                    $("input[id=preImpuesto]").val(detalles.ImpuestoPorc);
+                    var cantidad = $("input[id=cantidadProducto]").val();
+                    console.log(detalles.Stock);
+                    if (cantidad <= detalles.Stock) {
+                        var precio = $("#precioProducto").val();
+                        var impuesto = $("#preImpuesto").val();
+                        var cantidad = $("#cantidadProducto").val();
+                        var subTotal = precio * cantidad;
+                        var impuestos = (subTotal * impuesto) / 100;
+                        var total = subTotal + impuestos;
+                        if ($("#descuentoProducto").val != 0 && $("#descuentoProducto").val != null) {
+                            var descuento = $("#descuentoProducto").val();
+                            descuento = (total * descuento) / 100;
+                            total = total - descuento;
+                            $("#descuentoProducto2").val(descuento);
 
+                        }
+                        $("#subtotalProducto").val(subTotal);
+                        $("#impuestosProducto").val(impuestos);
+                        $("#totalProducto").val(total);
+                        $("#subtotalProducto2").val(subTotal);
+                        $("#impuestosProducto2").val(impuestos);
+                        $("#totalProducto2").val(total);
 
-            }
-        });
+                    } else {
+                        alert("La cantidad a ordenar supera los stocks");
+                        $("#cantidadProducto").val("");
+                    }
+                },
+            });
 
+        });        
+
+        // Calculo Descuento
         $("input[id='descuentoProducto']").keyup(function () {
             if ($("input[id=precioProducto]").val() != null) {
                 var precio = $("#precioProducto").val();

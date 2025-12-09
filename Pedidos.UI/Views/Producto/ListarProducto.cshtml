@@ -3,17 +3,39 @@
     ViewBag.Title = "Gestión de Productos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.3.5/datatables.min.css" rel="stylesheet" integrity="sha384-X4ObCG8fB8SK+9d3GgWfrrKjO7nk3Q2PrwyEKa4Nx78Su/v2xEBtCnJ9kRP+gHhi" crossorigin="anonymous">
+<script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.3.5/datatables.min.js" integrity="sha384-nhDlWXAURrLQOkCo8hXDhpFWZjzFzX/udlaGLd8PDMKvv67k6YMfex2pZjLU6o2U" crossorigin="anonymous"></script>
+<script>
+    import DataTable from 'datatables.net-dt';
+    import 'datatables.net-responsive-dt';
+
+    $(document).ready(function () {
+        let productosTable = new DataTable('#myTable', {
+        });
+        $('#productosTable').DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+            },
+            "pageLength": 10,
+            "responsive": true,
+            "columnDefs": [
+                { "orderable": false, "targets": [0, 7] } // Hace que Imagen y Acciones no sean ordenables
+            ]
+        });
+    });
+</script>
 @if (Session["UsuarioId"] != null)
 {
     var usuarioRol = Session["UsuarioRol"] as string;
+
     <div class="row tm-content-row tm-mt-big">
         <div class="col-12">
-            <div class="bg-white tm-block h-100">
+            <div class=" tm-block h-100">
                 <div class="row">
                     <div class="col-md-8 col-sm-12">
                         <h2 class="tm-block-title d-inline-block">Productos</h2>
                     </div>
-                    <div class="col-md-4 col-sm-12 text-right">
+                    <div class="">
                         <a href="@Url.Action("CrearProducto", "Producto")" class="btn btn-primary btn-small">Agregar Nuevo Producto</a>
                     </div>
                 </div>
@@ -86,7 +108,7 @@
                                                 <i class="fas fa-trash"></i> Eliminar
                                             </a>
                                         }
-                                        
+
                                     </td>
                                 </tr>
                             }
@@ -95,22 +117,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 }
-    @section Scripts {
-        <script>
-            $(document).ready(function () {
-                $('#productosTable').DataTable({
-                    "language": {
-                        "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
-                    },
-                    "pageLength": 10,
-                    "responsive": true,
-                    "columnDefs": [
-                        { "orderable": false, "targets": [0, 7] } // Hace que Imagen y Acciones no sean ordenables
-                    ]
-                });
-            });
-        </script>
-    }
+

@@ -14,13 +14,15 @@ namespace Pedidos.Abstracciones.ModelosParaUI
 		public int Id { get; set; }
 		[Required]
 		public string Nombre { get; set; }
+        [Display(Name = "Categoria")]
         [Required]
         public int CategoriaId { get; set; }
-		[Required]
+        [Required]
 		public float Precio { get; set; }
-		[Required]
+        [Display(Name = "Impuestos")]
+        [Required]
 		public float ImpuestoPorc { get; set; }
-		[Required]
+        [Required]
 		public int Stock { get; set; }
 		[Required]
 		public bool Activo { get; set; }

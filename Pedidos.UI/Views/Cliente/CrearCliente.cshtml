@@ -2,6 +2,7 @@
 
 @{
     ViewBag.Title = "Registrar nuevo cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="container mt-4">
@@ -10,9 +11,11 @@
 
             <h2 class="mb-4">@ViewBag.Title</h2>
 
-            @using (Html.BeginForm("CrearCliente", "Cliente", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate", id = "formClientes", enctype = "multipart/form-data" }))
+            @using (Html.BeginForm("CrearCliente", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
                 @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
 
                 <div class="p-4 border rounded shadow-sm bg-light">
 
@@ -24,32 +27,32 @@
 
                     <div class="mb-3">
                         @Html.LabelFor(model => model.Nombre, new { @class = "form-label" })
-                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" } })
                         @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
                     </div>
 
 
                     <div class="mb-3">
                         @Html.LabelFor(model => model.Cedula, new { @class = "form-label" })
-                        @Html.TextBoxFor(model => model.Cedula, new { @class = "form-control", placeholder = "", maxlength = 9, inputmode = "numeric", id="Cedula" })
+                        @Html.TextBoxFor(model => model.Cedula, new { @class = "form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7", placeholder = "", maxlength = 9, inputmode = "numeric", id = "Cedula" })
                         @Html.ValidationMessageFor(model => model.Cedula, null, new { @class = "text-danger" })
                     </div>
 
                     <div class="mb-3">
                         @Html.LabelFor(model => model.Correo, new { @class = "form-label" })
-                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control", type = "email" } })
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7", type = "email" } })
                         @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
                     </div>
 
                     <div class="mb-3">
                         @Html.LabelFor(model => model.Telefono, new { @class = "form-label" })
-                        @Html.EditorFor(model => model.Telefono, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Telefono, new { htmlAttributes = new { @class = "form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" } })
                         @Html.ValidationMessageFor(model => model.Telefono, "", new { @class = "text-danger" })
                     </div>
 
                     <div class="mb-3">
                         @Html.LabelFor(model => model.Direccion, new { @class = "form-label" })
-                        @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" } })
                         @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
                     </div>
 
@@ -67,3 +70,7 @@
         </div>
     </div>
 </div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

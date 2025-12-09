@@ -14,26 +14,38 @@ namespace Pedidos.AccesoADatos.Pedido.CrearPedido
 	{
 		private ContextoPedido _contexto;
 		private ContextoPedidoDetalle _contextod;
+        private ContextoProducto _contextop;
 
-		public CrearPedidoAD()
+        public CrearPedidoAD()
 		{
 			_contexto = new ContextoPedido();
             _contextod = new ContextoPedidoDetalle();
+            _contextop = new ContextoProducto();
         }
 
 		public async Task<int> Guardar(PedidoDto elPedido)
 		{
+            // Guarda el Pedido
 			PedidoAD elPedidoAGuardar = ConvertirObjetoParaAD(elPedido);
             _contexto.Pedido.Add(elPedidoAGuardar);
             EntityState estado = _contexto.Entry(elPedidoAGuardar).State = System.Data.Entity.EntityState.Added;
 			int cantidadDeDatosAgregados = await _contexto.SaveChangesAsync();
 
+            // Guarde el Detalle del Pedido con el ID
             elPedido.PedidoId = elPedidoAGuardar.Id;
             PedidoDetalleAD elPedidoDetalleAGuardar = ConvertirObjetoParaAD2(elPedido);
             _contextod.PedidoDetalle.Add(elPedidoDetalleAGuardar);
             EntityState estadod = _contextod.Entry(elPedidoDetalleAGuardar).State = System.Data.Entity.EntityState.Added;
             int cantidadDeDatosAgregadosd = await _contextod.SaveChangesAsync();
 
+            // Actualiza los stocks del producto en BD
+            ProductoAD elProductoEnBaseDeDatos = _contextop.Productos.Where(producto => producto.Id == elPedidoDetalleAGuardar.ProductoId).FirstOrDefault();
+            // Actualiza Stock
+            var stockActualizado = elProductoEnBaseDeDatos.Stock - elPedidoDetalleAGuardar.Cantidad;
+            elProductoEnBaseDeDatos.Stock = stockActualizado;
+
+            EntityState estadop = _contextop.Entry(elProductoEnBaseDeDatos).State = System.Data.Entity.EntityState.Modified;
+            int cantidadDeDatosAgregadosp = _contextop.SaveChanges();
             return cantidadDeDatosAgregados;
 		}
 		

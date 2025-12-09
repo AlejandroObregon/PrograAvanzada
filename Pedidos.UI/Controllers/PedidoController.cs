@@ -1,4 +1,5 @@
 using Pedidos.Abstracciones.LogicaDeNegocio.Cliente.ListarClientes;
+using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ListarPedidos;
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ActualizarPedido;
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.CrearPedido;
 using Pedidos.Abstracciones.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
@@ -6,6 +7,7 @@ using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ListarProductos;
 using Pedidos.Abstracciones.LogicaDeNegocio.Producto.ObtenerProductoPorId;
 using Pedidos.Abstracciones.ModelosParaUI;
 using Pedidos.LogicaDeNegocio.Cliente.ListarCliente;
+using Pedidos.LogicaDeNegocio.Pedido.ListarPedido;
 using Pedidos.LogicaDeNegocio.Pedido.ActualizarPedido;
 using Pedidos.LogicaDeNegocio.Pedido.CrearPedido;
 using Pedidos.LogicaDeNegocio.Pedido.ObtenerPedidoPorId;
@@ -23,7 +25,8 @@ namespace Pedido.UI.Controllers
 {
     public class PedidoController : Controller
     {
-        private IListarClientesLN _listarPedido;
+        private IListarClientesLN _listarCliente;
+        private IListarPedidoLN _listarPedido;
         private ICrearPedidoLN _crearPedido;
         private IObtenerPedidoPorIdLN _obtenerPedidoPorId;
         private IActualizarPedidoLN _actualizarPedido;
@@ -32,7 +35,8 @@ namespace Pedido.UI.Controllers
 
         public PedidoController()
         {
-            _listarPedido = new ListarClientesLN();
+            _listarCliente = new ListarClientesLN();
+            _listarPedido = new ListarPedidoLN();
             _crearPedido = new CrearPedidoLN();
             _obtenerPedidoPorId = new ObtenerPedidoPorIdLN();
             _actualizarPedido = new ActualizarPedidoLN();
@@ -42,7 +46,14 @@ namespace Pedido.UI.Controllers
         }
         public ActionResult ListarPedido()
         {
-            List<ClienteDto> laListaDePedidos = _listarPedido.Obtener();
+            List<ClienteDto> laListaDePedidos = _listarCliente.Obtener();
+            int i = 0;
+            return View(laListaDePedidos);
+        }
+
+        public ActionResult ListarPedidosCompletos()
+        {
+            List<PedidoDto> laListaDePedidos = _listarPedido.Obtener();
             int i = 0;
             return View(laListaDePedidos);
         }

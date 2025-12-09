@@ -1,71 +1,65 @@
+@model Pedidos.Abstracciones.ModelosParaUI.PedidoDto
+@{
+    ViewBag.Title = "Detalles del Pedido";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-9 col-lg-8">
-
-            <h2 class="mb-4">@ViewBag.Title</h2>
-
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Pedido Número: 1</h4>
-                </div>
-                <div class="card-body">
-
-                    <dl class="row mb-0">
-
-                        <dt class="col-sm-4 text-muted">
-                            ID
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            1
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            Cliente
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            Cliente1
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            Fecha
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            14/10/2025
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            Subtotal
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            200
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            Impuestos
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            24
-                        </dd>
-
-                        <dt class="col-sm-4 text-muted">
-                            Total
-                        </dt>
-                        <dd class="col-sm-8 border-bottom pb-2">
-                            224
-                        </dd>
-
-
-                    </dl>
+<div class="row tm-content-row tm-mt-big">
+    <div class="col-12">
+        <div class="bg-white tm-block">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-block-title">Detalles del Pedido</h2>
                 </div>
             </div>
 
-            <div class="mt-4 d-flex justify-content-start gap-2">
-                @Html.ActionLink("Editar", "EditarPedido", new { @class = "btn btn-warning" })
-
-                @Html.ActionLink("Volver a la Lista", "ListarPedido", null, new { @class = "btn btn-secondary" })
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold" style="width: 30%; background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Id)</td>
+                                    <td>@Html.DisplayFor(model => model.Id)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.ClienteId)</td>
+                                    <td>@Html.DisplayFor(model => model.ClienteId)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Fecha)</td>
+                                    <td>@Html.DisplayFor(model => model.Fecha)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Subtotal)</td>
+                                    <td>@Html.DisplayFor(model => model.Subtotal)</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Impuestos)</td>
+                                    <td>@Html.DisplayFor(model => model.Impuestos)%</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Total)</td>
+                                    <td>
+                                        <span class="badge bg-info text-dark">@Html.DisplayFor(model => model.Total) </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold" style="background-color: #f8f9fa;">@Html.DisplayNameFor(model => model.Estado)</td>
+                                    <td>@Html.DisplayFor(model => model.Estado)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="d-flex justify-content-start gap-2">
+                        @Html.ActionLink("Volver a la Lista", "ListarPedido", null, new { @class = "btn btn-secondary" })
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

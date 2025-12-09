@@ -14,7 +14,7 @@ namespace Pedidos.Abstracciones.ModelosParaUI
         public int Id { get; set; }
         [Display(Name = "Nombre")]
         [Required(ErrorMessage = "El nombre es obligatorio.")]
-        [MinLength(5, ErrorMessage = "El nombre debe tener al menos 5 caracteres.")]
+        [MinLength(3, ErrorMessage = "El nombre debe tener al menos 3 caracteres.")]
         [RegularExpression(@"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$", ErrorMessage = "El nombre solo puede contener letras y espacios.")]
         public string Nombre { get; set; }
 		
@@ -22,8 +22,13 @@ namespace Pedidos.Abstracciones.ModelosParaUI
         [Required(ErrorMessage = "La cédula es obligatoria.")]
         [RegularExpression(@"^\d{9}$", ErrorMessage = "La cédula debe tener exactamente 9 dígitos.")]
         public string Cedula { get; set; } = string.Empty;
-		public string Correo { get; set; }
-		public string Telefono { get; set; }
+        [Display(Name = "Correo")]
+        [Required(ErrorMessage = "El correo es obligatorio.")]
+        public string Correo { get; set; }
+        [Display(Name = "Telefono")]
+        [Required(ErrorMessage = "El telefono es obligatorio.")]
+        [RegularExpression(@"^\d{8}$", ErrorMessage = "El número telefonico debe tener exactamente 8 dígitos.")]
+        public string Telefono { get; set; }
 		public string Direccion { get; set; }
     }
 }
